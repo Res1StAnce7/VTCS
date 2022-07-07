@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FlowerCollector
+comment0.text=\r\n\ \ jeroos\ can\ pick\ flowers,\ keep\ them\ in\ their\ pocket\ \r\n\ \ and\ carries\ where\ it\ places\ each\ flower\ it\ picks.\ \r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.10.19\r\n
+comment1.params=
+comment1.target=FlowerCollector()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ FlowerCollector\ object.\r\n
+comment2.params=
+comment2.target=void\ collectFlowers()
+comment2.text=\r\n\ Walk\ the\ island\ and\ pick\ all\ the\ flowers\r\n
+comment3.params=
+comment3.target=java.util.List\ getBasket()
+comment3.text=\r\n\ The\ getter\ method\ of\ the\ basket\r\n\ @return\ the\ basket\r\n
+comment4.params=
+comment4.target=void\ pick()
+comment4.text=\r\n\ A\ new\ pick\ method\r\n
+numComments=5

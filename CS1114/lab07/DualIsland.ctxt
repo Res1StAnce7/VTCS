@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=DualIsland
+comment0.text=\r\n\ \ It\ will\ create\ two\ islands\r\n\ \ which\ will\ initialize\ a\ random\ pattern\ of\ flowers\r\n\ \ on\ the\ left\ island\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.10.07\r\n
+comment1.params=
+comment1.target=DualIsland()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ DualIsland\ object.\r\n
+comment2.params=random
+comment2.target=DualIsland(boolean)
+comment2.text=\r\n\ Initializes\ a\ newly\ created\ DualIsland\ object.\r\n\ @param\ random\ If\ true,\ use\ a\ random\ arrangement\ of\ flowers,\ instead\ of\r\n\ \ \ \ \ \ \ \ the\ default\ triangle\ shape.\r\n
+comment3.params=
+comment3.target=void\ myProgram()
+numComments=4

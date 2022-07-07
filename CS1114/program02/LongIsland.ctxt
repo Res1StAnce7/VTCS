@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LongIsland
+comment0.text=\r\n\ \ Serves\ as\ a\ base\ class\ for\ your\ ScavengerHunt\ class,\ including\ the\r\n\ \ predefined\ layout\ of\ flowers\ and\ nets\ on\ the\ island.\r\n\r\n\ \ @author\ Stephen\ Edwards\r\n\ \ @version\ 2021.08.31\r\n
+comment1.params=
+comment1.target=LongIsland()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ LongIsland\ object.\r\n
+numComments=2

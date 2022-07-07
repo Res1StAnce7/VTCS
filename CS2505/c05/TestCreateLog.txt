@@ -1,0 +1,46 @@
+Beginning test of String_Create()
+
+Initializing String with:  >>We drank a toast to innocence, we drank a toast to now...<<
+Shallow copy?  Good!
+String length OK?  Good!
+Are the correct characters stored?
+Reference string: >>We drank a toast to innocence, we drank a toast to now...<<
+Your string:      >>We drank a toast to innocence, we drank a toast to now...<<
+Good!  That was correct.
+
+Initializing String with empty string:  >><<
+Shallow copy?  Good!
+String length OK?  Good!
+Are the correct characters stored?
+Reference string: >><<
+Your string:      >><<
+Good!  That was correct.
+
+Initializing String with:  >>It ain't no use to sit and wonder why, babe...<<
+... but saying length is 23
+Shallow copy?  Good!
+String length OK?  Good!
+Are the correct characters stored?
+Reference string: >>It ain't no use to sit <<
+Your string:      >>It ain't no use to sit <<
+Good!  That was correct.
+
+Initializing String with:  >>I find my inspiration in tears and desperation...<<
+... but saying length is 0
+Shallow copy?  Good!
+String length OK?  Good!
+Are the correct characters stored?
+Reference string: >><<
+Your string:      >><<
+Good!  That was correct.
+
+Initializing String with:  >>Out there in the spotlight you're a million miles away...<<
+Shallow copy?  Good!
+String length OK?  Good!
+Are the correct characters stored?
+Reference string: >>Out there in the spotlight you're a million miles away...<<
+Your string:      >>Out there in the spotlight you're a million miles away...<<
+Good!  That was correct.
+
+Completed test of String_Create()
+

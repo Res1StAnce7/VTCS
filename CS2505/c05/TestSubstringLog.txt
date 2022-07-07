@@ -1,0 +1,94 @@
+Beginning test of String_subString()
+
+Initializing String with:  >>There's a train in the distance, autumn leaves are falling...<<
+Computing substring starting at 0, of length 30
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>There's a train in the distanc<<
+Your string:      >>There's a train in the distanc<<
+Good!  That was correct.
+
+Initializing String with:  >>I went down to the crossroads, fell down on my knees...<<
+Computing substring starting at 27, of length 28
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>ds, fell down on my knees...<<
+Your string:      >>ds, fell down on my knees...<<
+Good!  That was correct.
+
+Initializing String with:  >>Down the ancient corridors and through the gates of time...<<
+Computing substring starting at 19, of length 19
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>rridors and through<<
+Your string:      >>rridors and through<<
+Good!  That was correct.
+
+Initializing String with:  >>And she's buying a stairway to heaven...<<
+Computing substring starting at 13, of length 13
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>ing a stairwa<<
+Your string:      >>ing a stairwa<<
+Good!  That was correct.
+
+Initializing String with:  >>I went down to the crossroads, fell down on my knees...<<
+Computing substring starting at 18, of length 18
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >> crossroads, fell <<
+Your string:      >> crossroads, fell <<
+Good!  That was correct.
+
+Initializing String with:  >>'Cause you know sometimes words have two meanings...<<
+Computing substring starting at 13, of length 10
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>ow sometim<<
+Your string:      >>ow sometim<<
+Good!  That was correct.
+
+Initializing String with:  >>The long goodbye continues on...<<
+Computing substring starting at 0, of length 0
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >><<
+Your string:      >><<
+Good!  That was correct.
+
+Initializing String with:  >>I've got two tickets to paradise...<<
+Computing substring starting at 17, of length 0
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >><<
+Your string:      >><<
+Good!  That was correct.
+
+Initializing String with:  >>It's a hard rain's a-gonna fall...<<
+Computing substring starting at 33, of length 0
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >><<
+Your string:      >><<
+Good!  That was correct.
+
+Completed test of String_subString()
+

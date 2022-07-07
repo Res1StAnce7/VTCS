@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RemoteIsland
+comment0.text=\r\n\ \ A\ simple\ island\ for\ a\ jeroo\ to\ play\ in.\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.11.10\r\n
+comment1.params=
+comment1.target=RemoteIsland()
+comment1.text=\r\n\ Creates\ a\ new\ RemoteIsland\ object.\r\n
+comment2.params=
+comment2.target=void\ myProgram()
+comment2.text=\r\n\ Creates\ a\ RemoteJeroo,\ adds\ it\ to\ the\ island,\ and\ instructs\r\n\ it\ to\ interpret\ commands\ from\ a\ remote\ file\ on\ a\ designated\r\n\ web\ server.\r\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pylons
+comment0.text=\r\n\ \ A\ scenic\ picture\ of\ the\ Virginia\ Tech\ pylons.\r\n\r\n\ \ @author\ Stephen\ Edwards\r\n\ \ @version\ 2021.09.26\r\n
+comment1.params=
+comment1.target=Pylons()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ Pylon\ picture.\r\n
+comment2.params=
+comment2.target=void\ transform()
+comment2.text=\r\n\ Displays\ a\ transformed\ version\ of\ this\ image.\r\n
+numComments=3

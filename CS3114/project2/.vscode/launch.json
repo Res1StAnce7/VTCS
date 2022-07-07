@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DNAtree",
+            "request": "launch",
+            "mainClass": "DNAtree",
+            "projectName": "project2",
+            "args": "1.txt"
+        }
+    ]
+}

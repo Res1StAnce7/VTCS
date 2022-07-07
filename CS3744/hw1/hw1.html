@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="hw1.css" rel="stylesheet">
+    <title>CS3744 Homework</title>
+</head>
+
+<body onload="done()">
+
+    <div id="tabs" class="w3-container w3-padding-32 w3-light-grey w3-center w3">
+        <div class="w3-col s3">
+            <button class="tabLink fadingOut" id="defaultOpen" onclick="openPage('HW1', this, '#167ab0')">HW1</button>
+        </div>
+        <div class="w3-col s3">
+            <button class="tabLink fadingOut" onclick="openPage('HW2', this, '#167ab0')">HW2</button>
+        </div>
+        <div class="w3-col s3">
+            <button class="tabLink fadingOut" onclick="openPage('HW3', this, '#167ab0')">HW3</button>
+        </div>
+        <div class="w3-col s3"></div>
+        <button class="tabLink fadingOut" onclick="openPage('HW4', this, '#167ab0')">HW4</button>
+        <div class="w3-col s3"></div>
+    </div>
+    <div class="main">
+        <div class="tabContent" id="HW1">
+            <h1><b>Homework 1</b></h1>
+            <h3><b>Click the button to send a request to <a href="https://api.nasa.gov/" target="_blank">APOD</a>
+                    (Astronomy Picture of the Day).</b></h3>
+            <br>
+            <div>
+                <button class="request fadingButton" id="myButton" onclick="done()">Send a Request</button>
+                <input type="date" id="dateInput" name="startDate">
+            </div>
+            <div id="content">
+                <br>
+                <h3 id="titleHolder"><b>This is a title</b></h3>
+                <h3><b class="pre">Copyright: </b><b id="copyright">name</b></h3>
+                <img id="imgHolder" title="url" src="https://via.placeholder.com/150" alt="1">
+                <p id="desc">This is the explanation.</p>
+            </div>
+        </div>
+
+        <div class="tabContent" id="HW2">
+            <h1><b>Homework 2</b></h1>
+            <p>This is the second page of CS3744 assignments.</p>
+        </div>
+
+        <div class="tabContent" id="HW3">
+            <h1><b>Homework 3</b></h1>
+            <p>This is the third page of CS3744 assignments.</p>
+        </div>
+
+        <div class="tabContent" id="HW4">
+            <h1><b>Homework 4</b></h1>
+            <p>This is the fourth page of CS3744 assignments.</p>
+        </div>
+    </div>
+
+    <footer class="w3-container w3-padding-32 w3-light-grey w3-center w3" id="footer">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p>&copy; Siliang Zhang 2022</p>
+    </footer>
+
+    <script src="hw1.js"></script>
+
+</body>
+
+</html>

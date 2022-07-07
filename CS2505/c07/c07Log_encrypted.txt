@@ -1,0 +1,83 @@
+Here's your analysis:
+
+  0x00F1:  The
+  0x0086:  changes
+  0x00FC:  in
+  0x0097:  our
+  0x0010:  life
+  0x0090:  must
+  0x00BE:  come
+  0x001C:  from
+  0x00EB:  the
+  0x0101:  impossibility
+  0x0017:  to
+  0x0065:  live
+  0x00B2:  otherwise
+  0x0029:  than
+  0x00A2:  according
+  0x00C5:  to
+  0x0080:  the
+  0x00CA:  demands
+  0x0005:  of
+  0x0052:  our
+  0x006C:  conscience
+  0x0023:  not
+  0x0030:  from
+  0x0037:  our
+  0x00D4:  mental
+  0x0058:  resolution
+  0x00F7:  to
+  0x000A:  try
+  0x00AE:  a
+  0x00DD:  new
+  0x0079:  form
+  0x009D:  of
+  0x00E3:  life.
+  0x003D:  --
+  0x0042:  Leo
+  0x0048:  Tolstoy
+
+Now, we'll compare it to the reference solution...
+Here's the correct analysis:
+
+  0x00F1:  The
+  0x0086:  changes
+  0x00FC:  in
+  0x0097:  our
+  0x0010:  life
+  0x0090:  must
+  0x00BE:  come
+  0x001C:  from
+  0x00EB:  the
+  0x0101:  impossibility
+  0x0017:  to
+  0x0065:  live
+  0x00B2:  otherwise
+  0x0029:  than
+  0x00A2:  according
+  0x00C5:  to
+  0x0080:  the
+  0x00CA:  demands
+  0x0005:  of
+  0x0052:  our
+  0x006C:  conscience
+  0x0023:  not
+  0x0030:  from
+  0x0037:  our
+  0x00D4:  mental
+  0x0058:  resolution
+  0x00F7:  to
+  0x000A:  try
+  0x00AE:  a
+  0x00DD:  new
+  0x0079:  form
+  0x009D:  of
+  0x00E3:  life.
+  0x003D:  --
+  0x0042:  Leo
+  0x0048:  Tolstoy
+
+Now, we'll compare your analysis to the correct one...
+Good!  Everything looks OK.
+
+Score: 1000 / 1000

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Application
+comment0.text=\n\ \ An\ application\ launcher\ for\ running\ your\ simulation\ to\ see\ what\n\ \ happens.\ Edit\ the\ code\ below\ to\ set\ your\ simuation\ size\ and\ speed\n\ \ (by\ specifying\ a\ delay\ to\ use).\ Use\ the\ setter\ methods\ below\ to\n\ \ customize\ the\ satisfaction\ threshold\ and\ redline\ values\ for\ your\n\ \ simulation.\n\n\ \ @author\ Stephen\ Edwards\n\ \ @version\ 2021.09.29\n
+comment1.params=
+comment1.target=Application()
+comment1.text=\n\ Run\ an\ instance\ of\ your\ simulation.\n
+numComments=2

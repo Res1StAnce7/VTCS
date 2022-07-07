@@ -1,0 +1,312 @@
+------  STATS ------
+File Name: output.txt
+Cache Hits: 219054
+Cache Misses: 6209
+Disk Reads: 9175
+Disk Writes: 8245
+Time to Sort: 29
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 218178
+Cache Misses: 6013
+Disk Reads: 8950
+Disk Writes: 8062
+Time to Sort: 29
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 218848
+Cache Misses: 6218
+Disk Reads: 9188
+Disk Writes: 8222
+Time to Sort: 30
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 211334
+Cache Misses: 5548
+Disk Reads: 8106
+Disk Writes: 7597
+Time to Sort: 28
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 211404
+Cache Misses: 5575
+Disk Reads: 8110
+Disk Writes: 7600
+Time to Sort: 27
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 211201
+Cache Misses: 5565
+Disk Reads: 8121
+Disk Writes: 7607
+Time to Sort: 28
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 211417
+Cache Misses: 5632
+Disk Reads: 8208
+Disk Writes: 7660
+Time to Sort: 28
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 211670
+Cache Misses: 5610
+Disk Reads: 8146
+Disk Writes: 7642
+Time to Sort: 28
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 203899
+Cache Misses: 5114
+Disk Reads: 10507
+Disk Writes: 9991
+Time to Sort: 36
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 406840
+Cache Misses: 4701
+Disk Reads: 10526
+Disk Writes: 10069
+Time to Sort: 37
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 406266
+Cache Misses: 2270
+Disk Reads: 10472
+Disk Writes: 9977
+Time to Sort: 38
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 18476
+Cache Misses: 2303
+Disk Reads: 10607
+Disk Writes: 10109
+Time to Sort: 37
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 406288
+Cache Misses: 1724
+Disk Reads: 10406
+Disk Writes: 9913
+Time to Sort: 36
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 406918
+Cache Misses: 4731
+Disk Reads: 10540
+Disk Writes: 10049
+Time to Sort: 37
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 330906
+Cache Misses: 5183
+Disk Reads: 6244
+Disk Writes: 6181
+Time to Sort: 14
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 330810
+Cache Misses: 5185
+Disk Reads: 6247
+Disk Writes: 6174
+Time to Sort: 14
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 408142
+Cache Misses: 4811
+Disk Reads: 10677
+Disk Writes: 10173
+Time to Sort: 36
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 406032
+Cache Misses: 4958
+Disk Reads: 10477
+Disk Writes: 10001
+Time to Sort: 38
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 417632
+Cache Misses: 5874
+Disk Reads: 12013
+Disk Writes: 11062
+Time to Sort: 35
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 420190
+Cache Misses: 6159
+Disk Reads: 12235
+Disk Writes: 11300
+Time to Sort: 35
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 220027
+Cache Misses: 6740
+Disk Reads: 8807
+Disk Writes: 8784
+Time to Sort: 30
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 221192
+Cache Misses: 6923
+Disk Reads: 8986
+Disk Writes: 8970
+Time to Sort: 30
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 442384
+Cache Misses: 6923
+Disk Reads: 8986
+Disk Writes: 8970
+Time to Sort: 29
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 252854
+Cache Misses: 6923
+Disk Reads: 8986
+Disk Writes: 8970
+Time to Sort: 31
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 189284
+Cache Misses: 5183
+Disk Reads: 6244
+Disk Writes: 6184
+Time to Sort: 13
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 245802
+Cache Misses: 5571
+Disk Reads: 8107
+Disk Writes: 7559
+Time to Sort: 28
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 189212
+Cache Misses: 5183
+Disk Reads: 6243
+Disk Writes: 6184
+Time to Sort: 14
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 266638
+Cache Misses: 7
+Disk Reads: 7
+Disk Writes: 5
+Time to Sort: 5
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 266638
+Cache Misses: 7
+Disk Reads: 7
+Disk Writes: 5
+Time to Sort: 5
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 266638
+Cache Misses: 7
+Disk Reads: 7
+Disk Writes: 5
+Time to Sort: 6
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 266638
+Cache Misses: 7
+Disk Reads: 7
+Disk Writes: 5
+Time to Sort: 6
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 266638
+Cache Misses: 7
+Disk Reads: 7
+Disk Writes: 5
+Time to Sort: 8
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 266638
+Cache Misses: 7
+Disk Reads: 7
+Disk Writes: 5
+Time to Sort: 5
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 74704
+Cache Misses: 8194
+Disk Reads: 17409
+Disk Writes: 6655
+Time to Sort: 27
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 74700
+Cache Misses: 8193
+Disk Reads: 15354
+Disk Writes: 5628
+Time to Sort: 25
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 74704
+Cache Misses: 8194
+Disk Reads: 15359
+Disk Writes: 5630
+Time to Sort: 18
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 266638
+Cache Misses: 7
+Disk Reads: 7
+Disk Writes: 5
+Time to Sort: 7
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 266638
+Cache Misses: 7
+Disk Reads: 7
+Disk Writes: 5
+Time to Sort: 5
+
+------  STATS ------
+File Name: output.txt
+Cache Hits: 266638
+Cache Misses: 7
+Disk Reads: 7
+Disk Writes: 5
+Time to Sort: 5
+

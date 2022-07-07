@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Castle
+comment0.text=\n\ \ A\ simple\ level\ with\ a\ 3x3\ square\ of\ blocks\ representing\ a\ tiny\n\ \ castle\ for\ the\ PatrolBot.\n\n\ \ @author\ Stephen\ Edwards\n\ \ @version\ 2014.01.29\n
+comment1.params=
+comment1.target=Castle()
+comment1.text=\n\ Initializes\ a\ newly\ created\ Castle\ object.\n
+comment2.params=
+comment2.target=void\ myProgram()
+comment2.text=\n\ Steps\ to\ execute\ when\ "Run"\ is\ pressed.\n
+numComments=3

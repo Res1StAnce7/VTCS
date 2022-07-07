@@ -1,0 +1,90 @@
+.main {
+    margin: 6px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#content {
+    visibility: hidden;
+}
+
+.pre {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5vw ;
+}
+
+h1 {
+    font-size: 2vw;
+}
+
+h3{
+    font-size: 1.75vw;
+}
+
+p, footer, button, input {
+    font-size: 1.25vw
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+.fadingOut {
+    background-color: #363636;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    font-size: 1.5vw;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+.fadingOut:hover {
+    opacity: 1;
+}
+
+.fadingButton {
+    background-color: #ef7a1d;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 1.35vw;
+    margin: 4px 2px;
+    opacity: 0.4;
+    transition: 0.3s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.fadingButton:hover {
+    opacity: 1;
+}
+
+.w3 {
+    width: 100%;
+    height: 10%;
+}
+
+i:hover {
+    width: 100%;
+    height: 10%;
+}
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #363636; }
+.My-Color-Theme-2-hex { color: #167ab0; }
+.My-Color-Theme-3-hex { color: #ef7a1d; }
+.My-Color-Theme-4-hex { color: #E5E5E5; }
+.My-Color-Theme-5-hex { color: #FFFFFF; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(54, 54, 54, 1); }
+.My-Color-Theme-2-rgba { color: rgba(36, 47, 64, 1); }
+.My-Color-Theme-3-rgba { color: rgba(204, 164, 59, 1); }
+.My-Color-Theme-4-rgba { color: rgba(229, 229, 229, 1); }
+.My-Color-Theme-5-rgba { color: rgba(255, 255, 255, 1); }

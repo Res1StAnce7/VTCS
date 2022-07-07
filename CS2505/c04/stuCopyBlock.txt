@@ -1,0 +1,48 @@
+Copying 1 byte(s) from offset 0x57 to offset 0x349
+Source "line" before call:       0x00000050:  A3..89..34..EE..6C..9F..3B..7F..C4..61..C5..FB..F2..08..25..D8
+Destination "line" before call:  0x00000340:  90..3E..D1..6A..12..90..BC..66..93..40..BC..39..9C..6E..7F..73
+Destination "line" after call:
+                                              90..3E..D1..6A..12..90..BC..66..93..7F..BC..39..9C..6E..7F..73
+
+Copying 1 byte(s) from offset 0x375 to offset 0x1E4
+Source "line" before call:       0x00000370:  E4..E2..4C..9E..07..BF..0D..47..24..D7..FC..D2..FC..09..0F..5F
+Destination "line" before call:  0x000001E0:  A6..EE..EB..E1..A4..F5..F4..CB..FE..A2..77..C0..96..2A..F9..14
+Destination "line" after call:
+                                              A6..EE..EB..E1..BF..F5..F4..CB..FE..A2..77..C0..96..2A..F9..14
+
+Copying 2 byte(s) from offset 0x101 to offset 0x346
+Source "line" before call:       0x00000100:  0D..DF..D9..8D..7A..BA..03..47..71..EB..14..DB..0F..6E..81..AB
+Destination "line" before call:  0x00000340:  90..3E..D1..6A..12..90..BC..66..93..7F..BC..39..9C..6E..7F..73
+Destination "line" after call:
+                                              90..3E..D1..6A..12..90..DF..D9..93..7F..BC..39..9C..6E..7F..73
+
+Copying 4 byte(s) from offset 0x31 to offset 0x369
+Source "line" before call:       0x00000030:  DA..54..93..5F..4B..E3..6B..4D..13..25..26..46..37..91..43..2A
+Destination "line" before call:  0x00000360:  63..DE..A7..75..6E..63..DC..01..A3..98..3A..3F..06..BA..B2..8B
+Destination "line" after call:
+                                              63..DE..A7..75..6E..63..DC..01..A3..54..93..5F..4B..BA..B2..8B
+
+Copying 7 byte(s) from offset 0x176 to offset 0x361
+Source "line" before call:       0x00000170:  E7..6E..03..98..83..64..C6..8B..EF..77..0F..E7..BD..78..68..36
+Destination "line" before call:  0x00000360:  63..DE..A7..75..6E..63..DC..01..A3..54..93..5F..4B..BA..B2..8B
+Destination "line" after call:
+                                              63..C6..8B..EF..77..0F..E7..BD..A3..54..93..5F..4B..BA..B2..8B
+
+Copying 8 byte(s) from offset 0x140 to offset 0x321
+Source "line" before call:       0x00000140:  89..33..C6..5F..D6..F0..A6..63..2D..C9..00..D9..6D..47..62..7A
+Destination "line" before call:  0x00000320:  E1..47..E2..7A..DA..D4..BE..52..54..03..84..56..A5..5C..B1..46
+Destination "line" after call:
+                                              E1..89..33..C6..5F..D6..F0..A6..63..03..84..56..A5..5C..B1..46
+
+Copying 8 byte(s) from offset 0x150 to offset 0x372
+Source "line" before call:       0x00000150:  DD..5E..36..2C..B1..14..61..2E..08..8B..B1..84..F8..45..69..81
+Destination "line" before call:  0x00000370:  E4..E2..4C..9E..07..BF..0D..47..24..D7..FC..D2..FC..09..0F..5F
+Destination "line" after call:
+                                              E4..E2..DD..5E..36..2C..B1..14..61..2E..FC..D2..FC..09..0F..5F
+
+Copying 9 byte(s) from offset 0xC1 to offset 0x343
+Source "line" before call:       0x000000C0:  FF..5C..2B..EB..4C..4D..2F..56..F6..32..D6..71..FF..B2..3C..8E
+Destination "line" before call:  0x00000340:  90..3E..D1..6A..12..90..DF..D9..93..7F..BC..39..9C..6E..7F..73
+Destination "line" after call:
+                                              90..3E..D1..5C..2B..EB..4C..4D..2F..56..F6..32..9C..6E..7F..73
+

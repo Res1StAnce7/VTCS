@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Lab02Solution
+comment0.text=\r\n\ \ This\ class\ will\ be\ able\ to\ solve\ lab2\r\n\ \ It\ will\ manipulate\ Jeroo\ to\ do\ his\ job.\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.08.31\r\n
+comment1.params=
+comment1.target=Lab02Solution()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ Lab02Solution\ object.\r\n
+comment2.params=
+comment2.target=void\ myProgram()
+numComments=3

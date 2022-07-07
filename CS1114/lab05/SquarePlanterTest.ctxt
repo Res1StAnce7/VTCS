@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SquarePlanterTest
+comment0.text=\r\n\ \ It\ is\ the\ test\ class\ of\ flowerPerSide\r\n\ \ which\ will\ test\ all\ the\ methods\ in\ this\ class\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.09.21\r\n
+comment1.params=
+comment1.target=SquarePlanterTest()
+comment1.text=\r\n\ Creates\ a\ new\ flowerPerSideTest\ test\ object.\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testPlantSquare()
+comment3.text=\r\n\ the\ test\ method\ of\ plantSquare()\r\n
+comment4.params=
+comment4.target=void\ testTwoPlantSquare()
+comment4.text=\r\n\ the\ second\ test\ method\ of\ plantSquare()\r\n
+comment5.params=
+comment5.target=void\ testPickOneSide()
+comment5.text=\r\n\ the\ test\ method\ of\ plantOneSide()\r\n
+numComments=6

@@ -1,0 +1,100 @@
+Beginning test of String_strstr()
+
+Using test String with:
+
+  00000000001111111111222222222233333333334444444444555555555566666666667777777777888888
+  01234567890123456789012345678901234567890123456789012345678901234567890123456789012345
+>>Call me a relic, call me what you will...you stay awhile and then you're gone again...<<
+
+
+Results from testing:
+
+Test case:   0
+    Looking for:  >><<
+    You said: 0
+    Good!  That was correct.
+
+Test case:   1
+    Looking for:  >>C<<
+    You said: 0
+    Good!  That was correct.
+
+Test case:   2
+    Looking for:  >>Call me <<
+    You said: 0
+    Good!  That was correct.
+
+Test case:   3
+    Looking for:  >>...you stay awhile and t<<
+    You said: 38
+    Good!  That was correct.
+
+Test case:   4
+    Looking for:  >>, call me what you will...you stay awhile and<<
+    You said: 15
+    Good!  That was correct.
+
+Test case:   5
+    Looking for:  >>t you will...you stay awhile and then you're gone again..<<
+    You said: 28
+    Good!  That was correct.
+
+Test case:   6
+    Looking for:  >>all me a relic, call me what you will...you stay awhile and then you're <<
+    You said: 1
+    Good!  That was correct.
+
+Test case:   7
+    Looking for:  >> what you will...you st<<
+    You said: 24
+    Good!  That was correct.
+
+Test case:   8
+    Looking for:  >> call me what you will...you stay awhile and then you'r<<
+    You said: 16
+    Good!  That was correct.
+
+Test case:   9
+    Looking for:  >> will...yo<<
+    You said: 33
+    Good!  That was correct.
+
+Test case:  10
+    Looking for:  >> wi<<
+    You said: 33
+    Good!  That was correct.
+
+Test case:  11
+    Looking for:  >>RELic, call me what y<<
+    You said: -1
+    Good!  That was correct.
+
+Test case:  12
+    Looking for:  >>will...you stay awhile and then yoU'R<<
+    You said: -1
+    Good!  That was correct.
+
+Test case:  13
+    Looking for:  >>l me what you will...you stay awQU<<
+    You said: -1
+    Good!  That was correct.
+
+Test case:  14
+    Looking for:  >>u stay awhile and then you're gone again...a bit too far<<
+    You said: -1
+    Good!  That was correct.
+
+For the final test, we'll be using test String with:
+
+  0000000000111111111122222222223333333333444444444455555555556666666666777777777788
+  0123456789012345678901234567890123456789012345678901234567890123456789012345678901
+>>Call me a relic, call me what you will...Call me a relic, call me what you will...<<
+
+
+Test case:  15
+    Looking for:  >>ll me a relic, call me what<<
+    You said: 2
+    Good!  That was correct.
+
+Completed test of String_strstr()
+

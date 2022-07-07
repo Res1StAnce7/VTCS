@@ -1,0 +1,59 @@
+Here's your analysis:
+
+  0x0096:  They
+  0x000C:  are
+  0x0029:  the
+  0x0012:  only
+  0x0005:  dead
+  0x003A:  who
+  0x0077:  did
+  0x0019:  not
+  0x006A:  love,
+  0x001F:  Lipless
+  0x009D:  and
+  0x007D:  tongueless
+  0x002F:  in
+  0x0034:  the
+  0x0040:  sour
+  0x005B:  earth
+  0x0047:  Staring
+  0x00A3:  at
+  0x0051:  others,
+  0x0063:  poor
+  0x008A:  unlovers.
+  0x0072:  --
+  0x00A8:  Dylan
+  0x00B0:  Thomas
+
+Now, we'll compare it to the reference solution...
+Here's the correct analysis:
+
+  0x0096:  They
+  0x000C:  are
+  0x0029:  the
+  0x0012:  only
+  0x0005:  dead
+  0x003A:  who
+  0x0077:  did
+  0x0019:  not
+  0x006A:  love,
+  0x001F:  Lipless
+  0x009D:  and
+  0x007D:  tongueless
+  0x002F:  in
+  0x0034:  the
+  0x0040:  sour
+  0x005B:  earth
+  0x0047:  Staring
+  0x00A3:  at
+  0x0051:  others,
+  0x0063:  poor
+  0x008A:  unlovers.
+  0x0072:  --
+  0x00A8:  Dylan
+  0x00B0:  Thomas
+
+Now, we'll compare your analysis to the correct one...
+Good!  Everything looks OK.
+
+Score: 1000 / 1000

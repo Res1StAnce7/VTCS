@@ -1,0 +1,34 @@
+Dump of assembler code for function phase_defused:
+=> 0x000000000040178d <+0>:     sub    $0x68,%rsp
+   0x0000000000401791 <+4>:     mov    $0x1,%edi
+   0x0000000000401796 <+9>:     callq  0x40155d <send_msg>
+   0x000000000040179b <+14>:    cmpl   $0x6,0x20300a(%rip)        # 0x6047ac <num_input_strings>
+   0x00000000004017a2 <+21>:    je     0x4017a9 <phase_defused+28>
+   0x00000000004017a4 <+23>:    add    $0x68,%rsp
+   0x00000000004017a8 <+27>:    retq   
+   0x00000000004017a9 <+28>:    lea    0x10(%rsp),%r8
+   0x00000000004017ae <+33>:    lea    0x8(%rsp),%rcx
+   0x00000000004017b3 <+38>:    lea    0xc(%rsp),%rdx
+   0x00000000004017b8 <+43>:    mov    $0x402857,%esi
+   0x00000000004017bd <+48>:    mov    $0x6048b0,%edi
+   0x00000000004017c2 <+53>:    mov    $0x0,%eax
+   0x00000000004017c7 <+58>:    callq  0x400c30 <__isoc99_sscanf@plt>
+   0x00000000004017cc <+63>:    cmp    $0x3,%eax
+   0x00000000004017cf <+66>:    je     0x4017e7 <phase_defused+90>
+   0x00000000004017d1 <+68>:    mov    $0x402718,%edi
+   0x00000000004017d6 <+73>:    callq  0x400b70 <puts@plt>
+   0x00000000004017db <+78>:    mov    $0x402748,%edi
+   0x00000000004017e0 <+83>:    callq  0x400b70 <puts@plt>
+   0x00000000004017e5 <+88>:    jmp    0x4017a4 <phase_defused+23>
+   0x00000000004017e7 <+90>:    mov    $0x402860,%esi
+   0x00000000004017ec <+95>:    lea    0x10(%rsp),%rdi
+   0x00000000004017f1 <+100>:   callq  0x4013c3 <strings_not_equal>
+   0x00000000004017f6 <+105>:   test   %eax,%eax
+   0x00000000004017f8 <+107>:   jne    0x4017d1 <phase_defused+68>
+   0x00000000004017fa <+109>:   mov    $0x4026b8,%edi
+   0x00000000004017ff <+114>:   callq  0x400b70 <puts@plt>
+   0x0000000000401804 <+119>:   mov    $0x4026e0,%edi
+   0x0000000000401809 <+124>:   callq  0x400b70 <puts@plt>
+   0x000000000040180e <+129>:   mov    $0x0,%eax
+   0x0000000000401813 <+134>:   callq  0x4012e0 <secret_phase>
+   0x0000000000401818 <+139>:   jmp    0x4017d1 <phase_defused+68>

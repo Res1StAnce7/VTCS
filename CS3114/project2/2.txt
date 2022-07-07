@@ -1,0 +1,47 @@
+insert AAA CCC
+
+ insert            AAAA   
+ insert AA
+insert                 AAACCCCGGTGAAAACGTA
+
+insert       ACTGGGAA        
+insert       ACTGGGAACGTA
+insert       ACTGGGAACGTAGCG
+insert       ACTGGGAACGTAGCGA
+insert ACTGGGAAACGGGT
+insert AAGTCG
+insert GCTGAGA
+insert AGCGTAC
+insert ACGGGTCA
+insert TAGCGA
+insert GTACGA
+insert AGCATCGT
+insert AACGGGTCGT       
+
+insert ACCTT
+insert ACTTA
+ 
+ search  ACTGGGAAACGGGT
+ search AAACCCCGGTGAAAACGTAA
+
+ remove AAACCCCGGTGAAAACGTA
+print 
+
+
+
+insert ACGT
+insert            AAAA
+insert AA
+insert                 AAACCCCGGTGAAAACGTA
+insert       ACTGGGAA
+remove       ACGT
+insert ACCTT
+insert ACTTA
+print
+insert TATA
+insert TCG
+print lengths
+print stats
+search         AAAA$
+search     AA
+search      ACGT$

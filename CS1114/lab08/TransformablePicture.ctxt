@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TransformablePicture
+comment0.text=\r\n\ \ A\ picture\ that\ supports\ basic\ color\ transformations\ for\ Lab\ 08\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.10.12\r\n
+comment1.params=original
+comment1.target=TransformablePicture(student.media.Picture)
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ TransformablePicture\ object\ as\ a\ copy\r\n\ of\ another\ image.\r\n\ @param\ original\ the\ picture\ object\r\n
+comment2.params=rate
+comment2.target=void\ radialShadow(int)
+comment2.text=\r\n\ Adds\ a\ radial\ shadow\ that\ gets\ darker\ the\ farther\ a\ pixel\ is\ from\r\n\ the\ upper\ left\ corner.\r\n\ \r\n\ @param\ rate\ The\ speed\ at\ which\ the\ shadow\ gets\ darker,\ where\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ a\ larger\ number\ produces\ a\ more\ gradual\ shadow\r\n
+comment3.params=pix\ num
+comment3.target=void\ adjustPixel(student.media.Pixel,\ int)
+comment3.text=\r\n\ Takes\ a\ pixel\ and\ a\ integer\r\n\ then\ add\ centain\ amount\ of\ brightness\ to\ the\ pixel\r\n\ @param\ pix\ the\ pixel\ object\r\n\ @param\ num\ the\ value\ of\ brightness\r\n
+comment4.params=rate
+comment4.target=void\ radialGlow(int)
+comment4.text=\r\n\ Adds\ a\ radial\ Glow\ that\ gets\ darker\ the\ farther\ a\ pixel\ is\ from\r\n\ the\ lower\ right\ corner.\r\n\ \r\n\ @param\ rate\ The\ speed\ at\ which\ the\ glow\ gets\ brigher,\ where\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ a\ larger\ number\ produces\ a\ more\ gradual\ glow\r\n
+comment5.params=rate
+comment5.target=void\ colorShift(int)
+comment5.text=\r\n\ Adds\ a\ radial\ Glow\ that\ gets\ darker\ the\ farther\ a\ red\ \r\n\ pixel\ is\ from\ the\ lower\ right\ corner.\r\n\ Adds\ a\ radial\ shadow\ that\ gets\ darker\ the\ farther\ a\ blue\ \r\n\ pixel\ is\ from\ the\ upper\ left\ corner.\r\n\ \r\n\ @param\ rate\ The\ speed\ at\ which\ the\ glow\ gets\ brigher,\ where\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ a\ larger\ number\ produces\ a\ more\ gradual\ glow\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ The\ speed\ at\ which\ the\ shadow\ gets\ darker,\ where\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ a\ larger\ number\ produces\ a\ more\ gradual\ shawod\r\n
+numComments=6

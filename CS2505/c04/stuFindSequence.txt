@@ -1,0 +1,10 @@
+Looking for occurrences of:  4A
+        F 64 276 
+Looking for occurrences of:  6283
+        6C 240 259 296 
+Looking for occurrences of:  8B6283A8
+        6B 23F 258 
+Looking for occurrences of:  5F96929F
+        107 244 
+Looking for occurrences of:  C2338B6283A86F5F
+        23D 256 

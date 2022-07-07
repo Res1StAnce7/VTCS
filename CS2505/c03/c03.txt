@@ -1,0 +1,149 @@
+Part1
+a) Commands: gdb --args q1 200 500
+             break 24
+             print LT0
+             next
+   Answer: LTO changes from 0 to 1
+
+b) Line 25 was executed.
+
+c) Commands: next 
+             next 
+             next
+   Answer: LT1 has the value of 1
+
+d) Commands: pirnt (uint32_t)X
+   Answer: Yes, the if-statement is true since 200 is smaller 
+           and line 31 was executed
+
+e) Commands: next 
+             next 
+             next
+   Answer: LT2 has the value of 1 and C won't do anything if two 
+           variables have already had the same value
+
+f) Commands: next 
+             next 
+             next
+   Answer: GT0 has the value of 0 and C won't do anything if two 
+           variables have already had the same value
+
+
+Part2
+a) Commands: gcc -o q2 -std=c11 -O0 -Wall -W -ggdb3 q2.c 
+             ./q2 3 19
+   Answer: A message was printed out: prod(3, 19) == 1235
+
+b) Reading symbols from q2...
+   (gdb) break 41
+   Breakpoint 1 at 0x12a7: file q2.c, line 41.
+   (gdb) tun
+   Undefined command: "tun".  Try "help".
+   (gdb) run
+   Starting program: /mnt/c/Users/Siliang Zhang/Desktop/Test/Test_C/c03/q2/q2 3 19
+   prod(3, 19) == 1235
+   [Inferior 1 (process 3527) exited normally]
+
+   Answer: The first return was never executed that sumOfProducts() didn't return from it
+
+c) Reading symbols from q2...
+   (gdb) break 43
+   Breakpoint 1 at 0x12bb: file q2.c, line 43.
+   (gdb) run
+   Starting program: /mnt/c/Users/Siliang Zhang/Desktop/Test/Test_C/c03/q2/q2 3 19
+
+   Breakpoint 1, sumOfProducts (x=18, y=19) at q2.c:43
+   43                 return (x + 1) * y;
+
+   Answer: x = 18, y = 19
+
+d) Reading symbols from q2...
+   (gdb) break 49
+   Breakpoint 1 at 0x12f7: file q2.c, line 49.
+   (gdb) run
+   Starting program: /mnt/c/Users/Siliang Zhang/Desktop/Test/Test_C/c03/q2/q2 3 19
+
+   Breakpoint 1, sumOfProducts (x=17, y=19) at q2.c:49
+   49              return next;
+
+   Answer:x = 17, y = 19
+
+e) (gdb) continue
+   Continuing.
+
+   Breakpoint 1, sumOfProducts (x=15, y=19) at q2.c:49
+   49              return next;
+
+   Answer: The program recursively calls sumOfProducts() and stop 
+           when it reached the breakpoint(the recrusion backed out)
+
+f) Answer: 5 times in total
+           1st: x = 3, y = 19
+           2nd: x = 11, y = 19
+           3rd: x = 15, y = 19
+           4th: x = 17, y = 19
+           5th: x = 18, y = 19
+
+
+Part3
+a) Reading symbols from q3...
+   (gdb) break 29
+   Breakpoint 1 at 0x1207: file q3.c, line 29.  
+   (gdb) condition 1 pass == 994
+   (gdb) run
+   Starting program: /mnt/c/Users/Siliang Zhang/Desktop/Test/Test_C/c03/q3/q3 995
+
+   Breakpoint 1, main (argc=2, argv=0x7fffffffe018) at q3.c:29
+   29            pass++;  
+   (gdb) print pass
+   $1 = 994
+   (gdb) print retval
+   $2 = -302
+
+   Answer: When pass is 994, the value return by the function qw() is -302
+
+b) Reading symbols from q3...
+   (gdb) br 29
+   Breakpoint 1 at 0x1207: file q3.c, line 29.
+   (gdb) condition 1 pass == 888
+   (gdb) run
+   Starting program: /mnt/c/Users/Siliang Zhang/Desktop/Test/Test_C/c03/q3/q3 889
+
+   Breakpoint 1, main (argc=2, argv=0x7fffffffe018) at q3.c:29
+   29            pass++;
+   (gdb) print pass
+   $1 = 888
+   (gdb) print retval
+   $2 = -432
+
+   Answer: When pass is 888, the value return by the function qw() is -432
+
+c) Reading symbols from q3...
+   (gdb) br 29
+   Breakpoint 1 at 0x1207: file q3.c, line 29.
+   (gdb) condition 1 retval == 888
+   (gdb) run
+   Starting program: /mnt/c/Users/Siliang Zhang/Desktop/Test/Test_C/c03/q3/q3 1000000000
+
+   Breakpoint 1, main (argc=2, argv=0x7fffffffe018) at q3.c:29
+   29            pass++;
+   (gdb) print retval
+   $1 = 888
+   (gdb) print pass
+   $2 = 2259
+
+   Answer: When q3() returns 888, variable pass equals to 2259
+
+d) Reading symbols from q3...
+   (gdb) br 46
+   Breakpoint 1 at 0x125f: file q3.c, line 46.
+   (gdb) condition 1 dejavue % 1201 == 888
+   (gdb) run
+   Starting program: /mnt/c/Users/Siliang Zhang/Desktop/Test/Test_C/c03/q3/q3 1000000000
+
+   Breakpoint 1, q3 (N=2259) at q3.c:46
+   46         return ( dejavue % 1201 );  // return value between 0 and 500, inclusive
+   (gdb) print dejavue
+   $1 = 505637501
+
+   Answer: The value of dejavue have is 505637501

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=NetIsland
+comment0.text=\r\n\ It\ is\ source\ code\ file\ of\ the\ island\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.09.07\r\n
+comment1.params=
+comment1.target=NetIsland()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ NetIsland\ object.\r\n
+comment2.params=
+comment2.target=void\ myProgram()
+comment2.text=\r\n\ Create,\ add\ Jeroo\ to\ the\ island\r\n\ and\ pick\ up\ flowers\ and\ disable\ nets\r\n
+numComments=3

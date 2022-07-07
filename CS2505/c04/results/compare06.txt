@@ -1,0 +1,29 @@
+Comparing reference file refBlendBytes.txt to student file stuBlendBytes.txt:
+
+[ 0/ 0]  Blending 1 bytes from 0x0x12b1563 (offset 0xE3) to 0x0x12b17cf (offset 0x34F)
+[ 0/ 0]  Source "line" before call:       0x000000E0:  23..16..19..DC..49..98..0C..CD..DA..6A..2B..4F..FB..4B..95..4E
+[ 0/ 0]  Destination "line" before call:  0x00000340:  49..FA..E7..FC..7C..B1..1E..40..8B..8C..3C..4A..FC..17..0C..3F
+[ 0/ 0]  Destination "line" after call:
+[16/16]                                                49..FA..E7..FC..7C..B1..1E..40..8B..8C..3C..4A..FC..17..0C..F2
+[ 0/ 0]  Blending 2 bytes from 0x0x12b15eb (offset 0x16B) to 0x0x12b17db (offset 0x35B)
+[ 0/ 0]  Source "line" before call:       0x00000160:  20..67..11..21..55..53..D9..DC..47..19..71..BE..2B..6A..2E..6E
+[ 0/ 0]  Destination "line" before call:  0x00000350:  D7..14..3F..FD..E4..07..8A..6C..E7..E9..7D..40..47..68..60..90
+[ 0/ 0]  Destination "line" after call:
+[16/16]                                                D7..14..3F..FD..E4..07..8A..6C..E7..E9..7D..AB..F5..68..60..90
+[ 0/ 0]  Blending 4 bytes from 0x0x12b15d3 (offset 0x153) to 0x0x12b17c1 (offset 0x341)
+[ 0/ 0]  Source "line" before call:       0x00000150:  43..CD..4B..2F..C6..44..4F..8A..8B..B5..4A..25..94..4C..32..FF
+[ 0/ 0]  Destination "line" before call:  0x00000340:  49..FA..E7..FC..7C..B1..1E..40..8B..8C..3C..4A..FC..17..0C..F2
+[ 0/ 0]  Destination "line" after call:
+[16/16]                                                49..08..8B..B8..88..B1..1E..40..8B..8C..3C..4A..FC..17..0C..F2
+[ 0/ 0]  Blending 8 bytes from 0x0x12b1630 (offset 0x1B0) to 0x0x12b1780 (offset 0x300)
+[ 0/ 0]  Source "line" before call:       0x000001B0:  DC..40..09..54..0F..56..6E..AF..10..BF..6E..6A..46..6C..CB..14
+[ 0/ 0]  Destination "line" before call:  0x00000300:  4F..4E..EC..36..00..C8..72..03..6F..42..10..4C..38..E5..02..DF
+[ 0/ 0]  Destination "line" after call:
+[16/16]                                                82..4A..7C..73..F0..AD..94..F9..6F..42..10..4C..38..E5..02..DF
+[ 0/ 0]  Blending 16 bytes from 0x0x12b1600 (offset 0x180) to 0x0x12b1790 (offset 0x310)
+[ 0/ 0]  Source "line" before call:       0x00000180:  06..47..60..5B..9B..39..37..E2..52..A9..A1..7D..13..CF..EC..4A
+[ 0/ 0]  Destination "line" before call:  0x00000310:  02..D3..E4..45..BD..67..C8..C8..66..B8..17..D3..89..79..FE..D9
+[ 0/ 0]  Destination "line" after call:
+[16/16]                                                62..A7..E2..F0..04..F4..BB..E6..43..22..0D..04..B8..85..30..7D
+
+6 >> Score from stuBlendBytes.txt:  80 / 80

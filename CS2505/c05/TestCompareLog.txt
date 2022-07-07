@@ -1,0 +1,112 @@
+Beginning test of String_strcmp()
+
+Left String is:   >>I went down to the crossroads, fell down on my knees...<<
+Right String is:  >>I went down to the crossroads, fell down on my knees...<<
+   reference comparison says:  0
+   your comparison says:       0
+Good!  That was correct.
+
+Left String is:   >>Sweet dreams are made of this...<<
+Right String is:  >>Sweet dreams are<<
+   reference comparison says:  16
+   your comparison says:       1
+Good!  That was correct.
+
+Left String is:   >>Sweet dreams are<<
+Right String is:  >>Sweet dreams are made of this...<<
+   reference comparison says:  -16
+   your comparison says:       -1
+Good!  That was correct.
+
+Left String is:   >>I went down to the crossroads, fell down on my knees...<<
+Right String is:  >>I WENT DOWN TO THE CROSSROADS, FELL DOWN ON MY KNEES...<<
+   reference comparison says:  32
+   your comparison says:       1
+Good!  That was correct.
+
+Left String is:   >>'Scuse me while I kiss the sky...Doctor, my eyes have seen the years and the slow parade of fears...<<
+Right String is:  >>Doctor, my eyes have seen the years and the slow parade of fears...<<
+   reference comparison says:  -29
+   your comparison says:       -1
+Good!  That was correct.
+
+Left String is:   >>And sometimes late at night...And as we wind on down the road...<<
+Right String is:  >>And as we wind on down the road...<<
+   reference comparison says:  18
+   your comparison says:       1
+Good!  That was correct.
+
+Left String is:   >>For the wisdom of a pearl I wouldn't change a thing...So put me on a highway and show me a sign...<<
+Right String is:  >>So put me on a highway and show me a sign...<<
+   reference comparison says:  -13
+   your comparison says:       -1
+Good!  That was correct.
+
+Left String is:   >>You see the people starvin' underneath the tree...You've got to stand for something or you're gonna fall for anything...<<
+Right String is:  >>You've got to stand for something or you're gonna fall for anything...<<
+   reference comparison says:  -7
+   your comparison says:       -1
+Good!  That was correct.
+
+Left String is:   >>I've got two tickets to paradise...It ain't no use to sit and wonder why, babe...<<
+Right String is:  >>It ain't no use to sit and wonder why, babe...<<
+   reference comparison says:  -77
+   your comparison says:       -1
+Good!  That was correct.
+
+Left String is:   >>I find my inspiration in tears and desperation...Too many hearts have been broken failing to trust what they feel...<<
+Right String is:  >>Too many hearts have been broken failing to trust what they feel...<<
+   reference comparison says:  -11
+   your comparison says:       -1
+Good!  That was correct.
+
+Left String is:   >>Where have all the flowers gone, long time passing?...It ain't no use to sit and wonder why, babe...<<
+Right String is:  >>It ain't no use to sit and wonder why, babe...<<
+   reference comparison says:  14
+   your comparison says:       1
+Good!  That was correct.
+
+Left String is:   >>Out there in the spotlight you're a million miles away...<<
+Right String is:  >>And she's buying a stairway to heaven...<<
+   reference comparison says:  14
+   your comparison says:       1
+Good!  That was correct.
+
+Left String is:   >>Rain on the scarecrow blood on the plow...After midnight, we're gonna let it all hang out...<<
+Right String is:  >><<
+   reference comparison says:  92
+   your comparison says:       1
+Good!  That was correct.
+
+Left String is:   >><<
+Right String is:  >>You better make friends with your angels and your demons...<<
+   reference comparison says:  -59
+   your comparison says:       -1
+Good!  That was correct.
+
+Left String is:   >><<
+Right String is:  >><<
+   reference comparison says:  0
+   your comparison says:       0
+Good!  That was correct.
+
+Left String is:   >>After midnight, we're gonna let it all hang out...<<
+Right String is:  >>I'm navigating my way down Freedom's Road...<<
+   reference comparison says:  -8
+   your comparison says:       -1
+Good!  That was correct.
+
+Left String is:   >>I wish you peace when times are hard...<<
+Right String is:  >>Rain on the scarecrow blood on the plow...<<
+   reference comparison says:  -9
+   your comparison says:       -1
+Good!  That was correct.
+
+Left String is:   >>And as we wind on down the road...He said an honest man's pillow is his peace of mind...<<
+Right String is:  >>He said an honest man's pillow is his peace of mind...<<
+   reference comparison says:  -7
+   your comparison says:       -1
+Good!  That was correct.
+
+Completed test of String_strcmp()
+

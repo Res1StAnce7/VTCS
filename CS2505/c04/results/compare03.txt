@@ -1,0 +1,24 @@
+Comparing reference file refFindByte.txt to student file stuFindByte.txt:
+
+[ 0/ 0]  Looking for occurrences of the byte: C3
+[ 8/ 8]          	DA	1EC	232	25C	3DC
+[ 0/ 0]  Looking for occurrences of the byte: 6C
+[ 8/ 8]          	2E	17B	189	1B8	36C	38E	3E5
+[ 0/ 0]  Looking for occurrences of the byte: DC
+[ 8/ 8]          	16A	180	236	2CB	32C
+[ 0/ 0]  Looking for occurrences of the byte: 10
+[ 8/ 8]          	12	11F	175	2D8	317	3EE
+[ 0/ 0]  Looking for occurrences of the byte: D2
+[ 8/ 8]          	6D	B3	13E	22A	260	2B5	3CB	3D0
+[ 0/ 0]  Looking for occurrences of the byte: 77
+[ 8/ 8]          	1AC	292	33B	34D
+[ 0/ 0]  Looking for occurrences of the byte: FB
+[ 8/ 8]          	19	6E	16C	198	2C3	392
+[ 0/ 0]  Looking for occurrences of the byte: A8
+[ 8/ 8]          	CE	192	1B2	223
+[ 0/ 0]  Looking for occurrences of the byte: 1C
+[ 8/ 8]          	60	1A4	295	2D7	328	3D3	3E0
+[ 0/ 0]  Looking for occurrences of the byte: F5
+[ 8/ 8]          	7C	2B6	3A4	3E9
+
+3 >> Score from stuFindByte.txt:  80 / 80

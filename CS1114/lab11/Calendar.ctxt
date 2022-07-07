@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Calendar
+comment0.text=\r\n\ \ Represents\ a\ simple\ weekly\ calendar\ of\ events\ that\ are\r\n\ \ shown\ in\ a\ grid\ from\ 8am\ to\ 5pm\ on\ each\ day\ of\ the\ week.\r\n\ \ Internally,\ events\ are\ stored\ in\ a\ 2D\ array\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.11.03\r\n
+comment1.params=
+comment1.target=Calendar()
+comment1.text=\r\n\ Creates\ a\ new\ Calendar\ object.\r\n
+comment2.params=day\ event
+comment2.target=void\ addEvent(int,\ Event)
+comment2.text=\r\n\ Add\ a\ new\ event\ on\ the\ specified\ day.\ The\ time\ for\ the\ event\r\n\ is\ extracted\ from\ the\ event\ object\ itself.\ If\ the\ day\ is\r\n\ invalid,\ the\ method\ does\ nothing.\ \ If\ the\ event\ is\ outside\r\n\ the\ window\ of\ 8am-5pm,\ the\ method\ does\ nothing.\ If\ another\r\n\ event\ has\ already\ been\ entered\ for\ the\ specified\ day/time,\ it\r\n\ is\ removed\ and\ replaced\ by\ the\ one\ being\ added.\r\n\ @param\ day\ \ \ The\ day\ for\ the\ event\ (0-6).\r\n\ @param\ event\ The\ appointment\ to\ add\ on\ that\ day\ (contains\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ its\ own\ time).\r\n
+comment3.params=day\ hour
+comment3.target=Event\ getEvent(int,\ int)
+comment3.text=\r\n\ Retrieve\ an\ existing\ event\ (if\ any)\ by\ day\ and\ hour.\r\n\ @param\ day\ \ The\ day\ to\ check\ (0-6).\r\n\ @param\ hour\ The\ hour\ to\ check\ (0-23),\ in\ military\ time.\r\n\ @return\ The\ event\ at\ the\ specified\ day\ and\ time,\r\n\ if\ there\ is\ one,\ or\ null\ if\ no\ event\ is\ found,\ if\r\n\ the\ day\ specified\ is\ invalid,\ or\ if\ the\ hour\ specified\ is\r\n\ outside\ the\ range\ 8-17.\r\n
+numComments=4

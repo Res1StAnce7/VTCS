@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HurdleIsland
+comment0.text=\r\n\ \ An\ example\ island\ for\ showing\ how\ to\ write\ unit\ tests.\r\n\r\n\ \ @author\ Stephen\ Edwards\r\n\ \ @version\ 2021.09.12\r\n
+comment1.params=
+comment1.target=HurdleIsland()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ HurdleIsland\ object.\r\n
+comment2.params=
+comment2.target=void\ myProgram()
+numComments=3

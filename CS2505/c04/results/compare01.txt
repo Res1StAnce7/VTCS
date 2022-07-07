@@ -1,0 +1,26 @@
+Comparing reference file refShowBytes.txt to student file stuShowBytes.txt:
+
+[ 0/ 0]     Offset   Length
+[ 0/ 0]  ------------------
+[ 0/ 0]        230        2
+[ 8/ 8]          70 78 
+[ 0/ 0]        162        7
+[ 8/ 8]          DF 97 78 5C B9 FB 3E 
+[ 0/ 0]         29        4
+[ 8/ 8]          AF B0 95 8B 
+[ 0/ 0]         65        6
+[ 8/ 8]          88 33 D0 32 B0 1D 
+[ 0/ 0]         35        3
+[ 8/ 8]          E5 6C A9 
+[ 0/ 0]        216        2
+[ 8/ 8]          32 57 
+[ 0/ 0]         29        A
+[ 8/ 8]          AF B0 95 8B F2 92 E5 6C A9 7C 
+[ 0/ 0]        182        9
+[ 8/ 8]          A7 E6 DA 93 FC 8E E9 CE C9 
+[ 0/ 0]          6        2
+[ 8/ 8]          17 97 
+[ 0/ 0]        186        6
+[ 8/ 8]          FC 8E E9 CE C9 6F 
+
+1 >> Score from stuShowBytes.txt:  80 / 80

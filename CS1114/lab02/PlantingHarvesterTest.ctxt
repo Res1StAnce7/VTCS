@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PlantingHarvesterTest
+comment0.text=\r\n\ \ Write\ a\ one-sentence\ summary\ of\ your\ test\ class\ here.\r\n\ \ Summarize\ what\ your\ test\ objectives\ are.\r\n\r\n\ \ @author\ your\ name\ (your-pid)\r\n\ \ @version\ (place\ the\ date\ here,\ in\ this\ format\:\ yyyy.mm.dd)\r\n
+comment1.params=
+comment1.target=PlantingHarvesterTest()
+comment1.text=\r\n\ Creates\ a\ new\ PlantingHarvesterTest\ test\ object.\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+numComments=3

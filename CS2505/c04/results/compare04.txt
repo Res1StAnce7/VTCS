@@ -1,0 +1,14 @@
+Comparing reference file refFindSequence.txt to student file stuFindSequence.txt:
+
+[ 0/ 0]  Looking for occurrences of:  8B
+[16/16]          	F	53	78	E9	1EF
+[ 0/ 0]  Looking for occurrences of:  4C68
+[16/16]          	C2	220
+[ 0/ 0]  Looking for occurrences of:  85B2C8BC
+[16/16]          	8F	2C7
+[ 0/ 0]  Looking for occurrences of:  60D12E6F
+[16/16]          	F0	261
+[ 0/ 0]  Looking for occurrences of:  2C04F0CA78D12AF8
+[16/16]          	216	27C
+
+4 >> Score from stuFindSequence.txt:  80 / 80

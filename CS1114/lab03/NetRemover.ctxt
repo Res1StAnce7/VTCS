@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=NetRemover
+comment0.text=\r\n\ It\ is\ a\ subclass\ of\ Jeroo\ which\ will\ collect\ flowers\r\n\ and\ disable\ all\ the\ nets\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.09.07\r\n
+comment1.params=
+comment1.target=NetRemover()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ NetRemover\ object\ \r\n\ and\ makes\ it\ face\ SOUTH\r\n
+comment2.params=
+comment2.target=void\ pickFlowersAndDisableNets()
+comment2.text=\r\n\ Pick\ and\ disable\ all\ the\ nets\r\n
+comment3.params=
+comment3.target=int\ pickFlowersAndTurnAround()
+comment3.text=\r\n\ Pick\ all\ the\ flowers\ and\ turn\ Jeroo\ around\r\n\ @return\ flowers\ the\ amount\ of\ flowers\ Jeroo\ will\ pick\r\n
+comment4.params=steps
+comment4.target=void\ hopToOrigin(int)
+comment4.text=\r\n\ Go\ back\ to\ the\ origin\ (3,1)\r\n\ @param\ steps\ the\ steps\ Jeroo\ needs\ to\ hop\ back\ to\ the\ origin\r\n
+comment5.params=
+comment5.target=void\ navigateToNets()
+comment5.text=\r\n\ Find\ the\ nets\r\n
+comment6.params=
+comment6.target=void\ autoDisable()
+comment6.text=\r\n\ Disable\ as\ many\ nets\ as\ Jeroo\ can\r\n
+numComments=7

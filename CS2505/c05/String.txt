@@ -1,0 +1,22 @@
+Executing gradeC05.sh...
+
+Creating build subdirectory
+
+Copying student source file to the build directory:
+
+Unpacking test code into build directory:
+Unpacked files:
+total 72
+-rwxrwxrwx 1 s589z417 s589z417  4466 Mar 22 15:52 String.c
+-rwxrwxrwx 1 s589z417 s589z417  4623 Mar 18 21:17 String.h
+-rwxrwxrwx 1 s589z417 s589z417  6014 Mar 18 21:15 c05driver.c
+-rwxrwxrwx 1 s589z417 s589z417   788 Mar 18 21:15 testString.h
+-rwxrwxrwx 1 s589z417 s589z417 43104 Mar 18 21:18 testString.o
+
+Compiling test code and submission
+gcc -o String_c05 -std=c11 -Wall -ggdb3 c05driver.c String.c testString.o
+/usr/bin/ld: testString.o: relocation R_X86_64_32 against `.rodata' can not be used when making a PIE object; recompile with -fPIE
+collect2: error: ld returned 1 exit status
+
+Build failed; the file String_c05 does not exist
+######################################################################

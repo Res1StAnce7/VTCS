@@ -1,0 +1,20 @@
+[ 0]  Looking for occurrences of the byte: 15
+[ 8]             B9  203  216  2CB
+[ 0]  Looking for occurrences of the byte: BB
+[ 8]             83   F8  19C  21D
+[ 0]  Looking for occurrences of the byte: D2
+[ 8]             5D   9F   B5   D5  144  20D  22E  242  28C
+[ 0]  Looking for occurrences of the byte: 20
+[ 8]             E8  18F  23E  284  2EA  3E2
+[ 0]  Looking for occurrences of the byte: A1
+[ 8]             B3  111  128  354
+[ 0]  Looking for occurrences of the byte: 7
+[ 8]            169  1B7  261  323
+[ 0]  Looking for occurrences of the byte: 57
+[ 8]             A3  1D9  222  248  281  306  336  3A0  3B2
+[ 0]  Looking for occurrences of the byte: 48
+[ 8]             C5  1CF  1EC
+[ 0]  Looking for occurrences of the byte: AE
+[ 8]             60  167  16F  2AB  3AA
+[ 0]  Looking for occurrences of the byte: C5
+[ 8]             81  1BA  1EF  2CC  2CE  325  335

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MazeRunnerTest
+comment0.text=\r\n\ \ It\ is\ test\ class\ of\ MazeRunner\r\n\ \ which\ will\ test\ all\ the\ methods\ and\ conditions\ \r\n\ \ in\ the\ MazeRunner\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.09.19\r\n
+comment1.params=
+comment1.target=MazeRunnerTest()
+comment1.text=\r\n\ Creates\ a\ new\ MazeRunnerTest\ test\ object.\r\n
+comment2.params=
+comment2.target=void\ testStartCheck()
+numComments=3

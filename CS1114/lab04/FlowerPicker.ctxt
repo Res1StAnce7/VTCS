@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FlowerPicker
+comment0.text=\r\n\ \ It\ enables\ Jeroo\ to\ do\ three\ certain\ moves.\r\n\ \ Follow\ it\ with\ additional\ details\ about\ its\ purpose,\ what\ abstraction\r\n\ \ it\ represents,\ and\ how\ to\ use\ it.\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.09.15\r\n
+comment1.params=
+comment1.target=FlowerPicker()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ FlowerPicker\ object.\r\n
+comment2.params=
+comment2.target=void\ pickLine()
+comment2.text=\r\n\ Picks\ one\ straight\ line\ of\ flowers,\ stopping\ when\ there\ are\ no\r\n\ more\ flowers\ left.\r\n\ @precondition\ The\ jeroo\ is\ standing\ on\ the\ first\ flower\ in\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ line,\ and\ is\ facing\ in\ the\ same\ direction\ as\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ line\ of\ flowers.\r\n\ @postcondition\ The\ jeroo\ has\ picked\ the\ continuous\ line\ of\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ flowers\ starting\ from\ where\ it\ was\ standing,\ it\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ends\ standing\ in\ the\ spot\ where\ the\ last\ flower\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ was,\ still\ facing\ the\ same\ direction\ as\ before.\r\n
+comment3.params=
+comment3.target=void\ turnAroundRight()
+comment3.text=\r\n\ Turns\ the\ jeroo\ completely\ around,\ while\ also\ moving\ one\r\n\ square\ to\ the\ right\ of\ the\ starting\ position.\r\n\ @precondition\ \ The\ jeroo\ is\ not\ blocked\ one\ square\ to\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ right\ of\ its\ starting\ position.\r\n\ @postcondition\ The\ jeroo\ is\ facing\ the\ opposite\ direction,\ and\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ ends\ standing\ in\ the\ spot\ that\ was\ one\ square\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ immediately\ to\ the\ right\ relative\ to\ its\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ position\ before\ the\ method\ was\ called.\r\n
+comment4.params=
+comment4.target=void\ pick2Lines()
+comment4.text=\r\n\ Picks\ two\ straight\ line\ of\ flowers\ that\ are\ adjacent\ to\ each\r\n\ other.\ \ This\ involves\ picking\ the\ first\ line,\ and\ then\ turning\r\n\ around\ to\ the\ right\ to\ pick\ the\ second\ line.\r\n\ @precondition\ The\ jeroo\ is\ standing\ on\ the\ first\ flower\ in\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ first\ line,\ and\ is\ facing\ in\ the\ same\ direction\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ as\ the\ line\ of\ flowers.\ \ The\ second\ line\ of\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ flowers\ is\ to\ the\ right\ of\ the\ first\ line,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ relative\ to\ the\ jeroo's\ position.\r\n\ @postcondition\ The\ jeroo\ has\ picked\ the\ continuous\ line\ of\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ flowers\ starting\ from\ where\ it\ was\ standing,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ turned\ around,\ and\ picked\ the\ second\ line\ of\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ flowers.\ \ It\ ends\ standing\ in\ the\ spot\ where\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ last\ flower\ in\ the\ second\ line\ was,\ facing\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ opposite\ direction\ from\ before.\r\n
+numComments=5

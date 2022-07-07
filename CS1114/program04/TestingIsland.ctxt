@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TestingIsland
+comment0.text=\r\n\ \ An\ island\ with\ a\ fixed\ layout\ that\ can\ be\ used\ as\ a\ testing\r\n\ \ ground\ for\ individual\ MazeRunner\ methods.\r\n\r\n\ \ @author\ Stephen\ Edwards\r\n\ \ @version\ 2021.09.12\r\n
+comment1.params=
+comment1.target=TestingIsland()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ TestingIsland\ object.\r\n
+numComments=2

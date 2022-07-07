@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ScavengerHunt
+comment0.text=\r\n\ \ It\ is\ the\ sub\ class\ of\ LongIsland\r\n\ \ Adds\ Jeroo\ to\ the\ island\ and\ calls\ myProgram()\r\n\ \ to\ do\ the\ job\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.08.31\r\n
+comment1.params=
+comment1.target=ScavengerHunt()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ ScavengerHunt\ object.\r\n
+comment2.params=
+comment2.target=void\ myProgram()
+comment2.text=\r\n\ Creates\ and\ adds\ a\ Jeroo\ object\ to\ the\ island\r\n
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=FlowerIsland
+comment0.text=\r\n\ \ An\ island\ with\ either\ a\ fixed\ or\ random\ pattern\ of\ flowers\ for\r\n\ \ Lab\ 09.\r\n\r\n\ \ @author\ Stephen\ Edwards\r\n\ \ @version\ 2021.09.12\r\n
+comment1.params=
+comment1.target=FlowerIsland()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ FlowerIsland\ object\ with\ a\ random\r\n\ pattern\ of\ flowers.\r\n
+comment2.params=width\ height
+comment2.target=FlowerIsland(int,\ int)
+comment2.text=\r\n\ Initializes\ a\ newly\ created\ FlowerIsland\ object\ of\ a\ specific\r\n\ size\ with\ a\ fixed\ crosshatch\ pattern\ of\ flowers.\r\n\ @param\ width\ \ \ The\ width\ of\ the\ island\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (including\ the\ surrounding\ water).\r\n\ @param\ height\ \ The\ height\ of\ the\ island\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (including\ the\ surrounding\ water).\r\n
+comment3.params=width\ height\ probability
+comment3.target=FlowerIsland(int,\ int,\ double)
+comment3.text=\r\n\ Initializes\ a\ newly\ created\ FlowerIsland\ object\ of\ a\ specific\r\n\ size\ with\ a\ random\ arrangement\ of\ flowers.\r\n\ @param\ width\ \ \ \ \ \ \ \ The\ width\ of\ the\ island\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (including\ the\ surrounding\ water).\r\n\ @param\ height\ \ \ \ \ \ \ The\ height\ of\ the\ island\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (including\ the\ surrounding\ water).\r\n\ @param\ probability\ \ The\ chance\ than\ any\ individual\ cell\ will\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ contain\ a\ flower.\r\n
+comment4.params=
+comment4.target=void\ plantFixedFlowers()
+comment4.text=\r\n\ Plants\ a\ fixed\ crosshatch\ pattern\ of\ flowers\ on\ the\ island.\r\n
+comment5.params=probability
+comment5.target=void\ plantRandomFlowers(double)
+comment5.text=\r\n\ Plants\ a\ random\ pattern\ of\ flowers\ on\ the\ island.\r\n\ @param\ probability\ Chance\ that\ any\ given\ cell\ will\ contain\ a\ flower.\r\n
+comment6.params=
+comment6.target=void\ myProgram()
+comment6.text=\r\n\ The\ main\ program\ to\ create\ your\ jeroo\ and\ place\ it\ on\ the\ island.\r\n
+numComments=7

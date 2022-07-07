@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MazeIsland
+comment0.text=\r\n\ \ An\ island\ with\ a\ randomly\ generated\ maze\ layout.\r\n\r\n\ \ @author\ Stephen\ Edwards\r\n\ \ @version\ 2021.09.12\r\n
+comment1.params=
+comment1.target=MazeIsland()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ MazeIsland\ object\ with\ a\ random\r\n\ width,\ height,\ and\ maze\ layout.\r\n
+comment2.params=width\ height
+comment2.target=MazeIsland(int,\ int)
+comment2.text=\r\n\ Initializes\ a\ newly\ created\ MazeIsland\ object\ with\ the\r\n\ specified\ size\ and\ a\ random\ maze\ layout.\r\n\ \r\n\ @param\ width\ The\ desired\ world\ width\r\n\ @param\ height\ The\ desired\ world\ height\r\n
+comment3.params=width\ height\ id
+comment3.target=MazeIsland(int,\ int,\ long)
+comment3.text=\r\n\ Initializes\ a\ newly\ created\ MazeIsland\ object\ identified\ by\ the\ specified\r\n\ id\ number,\ so\ you\ can\ create\ the\ same\ island\ over\ and\ over\r\n\ with\ the\ exact\ same\ layout.\r\n\ \r\n\ @param\ width\ \ The\ desired\ world\ width\r\n\ @param\ height\ The\ desired\ world\ height\r\n\ @param\ id\ \ \ \ \ The\ id\ of\ the\ random\ layout\ to\ use\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (unique\ for\ every\ size)\r\n
+comment4.params=id
+comment4.target=MazeIsland(long)
+comment4.text=\r\n\ Initializes\ a\ newly\ created\ MazeIsland\ object\ with\ the\r\n\ specified\ size\ and\ maze\ layout\ identified\ by\ the\ specified\r\n\ id\ number.\ Any\ unique\ id\ number\ will\ generate\ a\ specific\r\n\ island\ dimensions\ and\ layout,\ so\ the\ same\ island\ can\ be\r\n\ recreated\ whenever\ desired.\r\n\ \r\n\ @param\ id\ The\ id\ of\ the\ random\ layout\ to\ use\r\n\ \ \ \ \ \ \ \ \ \ \ (unique\ for\ every\ size)\r\n
+comment5.params=
+comment5.target=void\ myProgram()
+numComments=6

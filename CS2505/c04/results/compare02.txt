@@ -1,0 +1,20 @@
+Comparing reference file refShowValue.txt to student file stuShowValue.txt:
+
+[ 0/ 0]  Interpreting 1 signed bytes at offset 98:
+[16/16]  	-89
+[ 0/ 0]  Interpreting 1 unsigned bytes at offset 98:
+[16/16]  	167
+[ 0/ 0]  Interpreting 2 signed bytes at offset 13:
+[16/16]  	22294
+[ 0/ 0]  Interpreting 2 unsigned bytes at offset 13:
+[16/16]  	22294
+[ 0/ 0]  Interpreting 4 signed bytes at offset A1:
+[16/16]  	-333089318
+[ 0/ 0]  Interpreting 4 unsigned bytes at offset A1:
+[16/16]  	3961877978
+[ 0/ 0]  Interpreting 8 signed bytes at offset 7:
+[16/16]  	8085616802259647614
+[ 0/ 0]  Interpreting 8 unsigned bytes at offset 7:
+[16/16]  	8085616802259647614
+
+2 >> Score from stuShowValue.txt:  128 / 128

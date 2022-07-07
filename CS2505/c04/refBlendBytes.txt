@@ -1,0 +1,25 @@
+[ 0]  Blending 1 bytes from 0x0x50cb70 (offset 0x100) to 0x0x50cde6 (offset 0x376)
+[ 0]  Source "line" before call:       0x00000100:  EA..88..EA..DE..10..B9..86..35..6B..83..02..E4..31..AA..02..AB
+[ 0]  Destination "line" before call:  0x00000370:  12..1D..4F..44..DC..9F..7E..D8..7D..59..78..C3..F9..64..77..C2
+[ 0]  Destination "line" after call:
+[16]                                                12..1D..4F..44..DC..9F..D0..D8..7D..59..78..C3..F9..64..77..C2
+[ 0]  Blending 2 bytes from 0x0x50caf8 (offset 0x88) to 0x0x50cda4 (offset 0x334)
+[ 0]  Source "line" before call:       0x00000080:  5C..DF..F8..F4..13..0F..18..A5..06..0C..73..1D..E2..1D..11..F5
+[ 0]  Destination "line" before call:  0x00000330:  58..3C..9C..80..7C..F9..56..2A..08..3C..8E..A1..A3..68..C5..4D
+[ 0]  Destination "line" after call:
+[16]                                                58..3C..9C..80..1C..39..56..2A..08..3C..8E..A1..A3..68..C5..4D
+[ 0]  Blending 4 bytes from 0x0x50cad7 (offset 0x67) to 0x0x50cdec (offset 0x37C)
+[ 0]  Source "line" before call:       0x00000060:  09..77..0C..D3..98..34..16..24..92..F7..F3..CD..17..D6..AA..F4
+[ 0]  Destination "line" before call:  0x00000370:  12..1D..4F..44..DC..9F..D0..D8..7D..59..78..C3..F9..64..77..C2
+[ 0]  Destination "line" after call:
+[16]                                                12..1D..4F..44..DC..9F..D0..D8..7D..59..78..C3..BB..4D..08..FD
+[ 0]  Blending 8 bytes from 0x0x50cbb2 (offset 0x142) to 0x0x50cdc1 (offset 0x351)
+[ 0]  Source "line" before call:       0x00000140:  88..8A..18..22..BE..01..27..75..EB..10..5D..80..FB..F1..E9..DA
+[ 0]  Destination "line" before call:  0x00000350:  AA..38..69..26..31..BF..50..3A..FC..DE..DB..9F..46..A0..EC..B3
+[ 0]  Destination "line" after call:
+[16]                                                AA..B9..4B..CD..21..CD..07..84..FD..DE..DB..9F..46..A0..EC..B3
+[ 0]  Blending 16 bytes from 0x0x50cb90 (offset 0x120) to 0x0x50cdc0 (offset 0x350)
+[ 0]  Source "line" before call:       0x00000120:  A3..E1..AD..B3..9A..33..E8..05..B7..EA..E9..E8..94..EB..94..69
+[ 0]  Destination "line" before call:  0x00000350:  AA..B9..4B..CD..21..CD..07..84..FD..DE..DB..9F..46..A0..EC..B3
+[ 0]  Destination "line" after call:
+[16]                                                90..A7..91..F6..88..FE..89..D4..86..70..45..11..0F..1E..A5..25

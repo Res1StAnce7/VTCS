@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Scavenger
+comment0.text=\r\n\ \ It\ is\ the\ subclass\ of\ Jeroo\r\n\ \ It\ will\ controll\ the\ Jeroo\ to\ pick\ all\ the\ flowers\ and\ stop\r\n\ \ at\ the\ center\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.09.01\r\n
+comment1.params=
+comment1.target=Scavenger()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ Scavenger\ object.\r\n
+comment2.params=
+comment2.target=void\ collectFlowers()
+comment2.text=\r\n\ Collects\ all\ the\ flowers\ and\ stops\ at\ the\ center\r\n
+comment3.params=n
+comment3.target=void\ hopAndLeft(int)
+comment3.text=\r\n\ Hops\ for\ n\ times\ then\ turns\ left\r\n\ @param\ n\ hops\ for\ a\ certain\ times\r\n
+comment4.params=n
+comment4.target=void\ hopAndRight(int)
+comment4.text=\r\n\ Hops\ for\ n\ times\ then\ turns\ right\r\n\ @param\ n\ hops\ for\ a\ certain\ times\r\n
+comment5.params=
+comment5.target=void\ pickAndUturn()
+comment5.text=\r\n\ Picks\ and\ turns\ around\r\n
+comment6.params=n\ direction
+comment6.target=void\ hopAndPick(int,\ int)
+comment6.text=\r\n\ Hops\ for\ n\ times,\ picks\ and\ turns\ to\ a\ certain\ direction\r\n\ @param\ n\ hops\ for\ a\ certain\ times\r\n\ @param\ direction\ turns\ to\ a\ certain\ direction\r\n
+numComments=7

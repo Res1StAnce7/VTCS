@@ -1,0 +1,358 @@
+Beginning test of AL_elemAt()...
+
+   Building an arrayList from the MLB data file...
+   Comparing your arrayList to the reference arrayList...
+OK... your elemSz is correct
+OK... your capacity is correct
+OK... your usasge is correct
+Going to try to print element at index 0... this could go badly...
+ID:     adamsau01
+Name:   Adams, Austin
+Debut:  7/12/2014
+Finale: 7/6/2019
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 1... this could go badly...
+ID:     alexado01
+Name:   Alexander, Doyle
+Debut:  6/26/1971
+Finale: 9/27/1989
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 2... this could go badly...
+ID:     allisar01
+Name:   Allison, Art
+Debut:  1871-05-04
+Finale: 1876-10-05
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 3... this could go badly...
+ID:     anderda02
+Name:   Anderson, Dave
+Debut:  5/8/1983
+Finale: 10/3/1992
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 4... this could go badly...
+ID:     aukerel01
+Name:   Auker, Elden
+Debut:  8/10/1933
+Finale: 9/20/1942
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 5... this could go badly...
+ID:     backmle01
+Name:   Backman, Les
+Debut:  7/3/1909
+Finale: 8/28/1910
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 6... this could go badly...
+ID:     barbetu01
+Name:   Barber, Turner
+Debut:  8/19/1915
+Finale: 4/30/1923
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 7... this could go badly...
+ID:     bordiri01
+Name:   Bordi, Rich
+Debut:  7/16/1980
+Finale: 7/19/1988
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 8... this could go badly...
+ID:     chapmja02
+Name:   Chapman, Jaye
+Debut:  9/4/2012
+Finale: 10/3/2012
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 9... this could go badly...
+ID:     chenela01
+Name:   Cheney, Larry
+Debut:  9/9/1911
+Finale: 9/26/1919
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 10... this could go badly...
+ID:     daviara01
+Name:   Daviault, Ray
+Debut:  4/13/1962
+Finale: 9/30/1962
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 11... this could go badly...
+ID:     demaejo01
+Name:   DeMaestri, Joe
+Debut:  4/19/1951
+Finale: 9/27/1961
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 12... this could go badly...
+ID:     ellswdi01
+Name:   Ellsworth, Dick
+Debut:  6/22/1958
+Finale: 6/23/1971
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 13... this could go badly...
+ID:     evansja01
+Name:   Evans, Jake
+Debut:  1879-05-01
+Finale: 1885-05-19
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 14... this could go badly...
+ID:     flannjo01
+Name:   Flannery, John
+Debut:  9/2/1977
+Finale: 9/19/1977
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 15... this could go badly...
+ID:     fulmemi01
+Name:   Fulmer, Michael
+Debut:  4/29/2016
+Finale: 9/24/2020
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 16... this could go badly...
+ID:     gardnal01
+Name:   Gardner, Alex
+Debut:  1884-05-10
+Finale: 1884-05-10
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 17... this could go badly...
+ID:     geissem01
+Name:   Geiss, Emil
+Debut:  1887-05-18
+Finale: 1887-05-18
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 18... this could go badly...
+ID:     greensc01
+Name:   Green, Scarborough
+Debut:  8/2/1997
+Finale: 10/1/2000
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 19... this could go badly...
+ID:     harribu01
+Name:   Harris, Bucky
+Debut:  8/28/1919
+Finale: 6/12/1931
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 20... this could go badly...
+ID:     henrito01
+Name:   Henrich, Tommy
+Debut:  5/11/1937
+Finale: 10/1/1950
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 21... this could go badly...
+ID:     hernake01
+Name:   Hernandez, Keith
+Debut:  8/30/1974
+Finale: 7/24/1990
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 22... this could go badly...
+ID:     jenksbo01
+Name:   Jenks, Bobby
+Debut:  7/6/2005
+Finale: 7/7/2011
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 23... this could go badly...
+ID:     johnsad01
+Name:   Johnson, Adam
+Debut:  7/16/2001
+Finale: 9/28/2003
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 24... this could go badly...
+ID:     josefe01
+Name:   Jose, Felix
+Debut:  9/2/1988
+Finale: 9/28/2003
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 25... this could go badly...
+ID:     knabeot01
+Name:   Knabe, Otto
+Debut:  10/3/1905
+Finale: 9/25/1916
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 26... this could go badly...
+ID:     kuhnsch01
+Name:   Kuhns, Charlie
+Debut:  1897-06-04
+Finale: 1899-10-14
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 27... this could go badly...
+ID:     lakefr01
+Name:   Lake, Fred
+Debut:  1891-05-07
+Finale: 5/28/1910
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 28... this could go badly...
+ID:     lopezni01
+Name:   Lopez, Nicky
+Debut:  5/14/2019
+Finale: 9/27/2020
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 29... this could go badly...
+ID:     mayzati01
+Name:   Mayza, Tim
+Debut:  8/15/2017
+Finale: 9/13/2019
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 30... this could go badly...
+ID:     mullige01
+Name:   Mullin, George
+Debut:  5/4/1902
+Finale: 5/23/1915
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 31... this could go badly...
+ID:     newlima01
+Name:   Newlin, Maury
+Debut:  9/20/1940
+Finale: 9/17/1941
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 32... this could go badly...
+ID:     nixla01
+Name:   Nix, Laynce
+Debut:  7/10/2003
+Finale: 8/3/2013
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 33... this could go badly...
+ID:     peterky01
+Name:   Peterson, Kyle
+Debut:  7/19/1999
+Finale: 7/5/2001
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 34... this could go badly...
+ID:     pinedmi01
+Name:   Pineda, Michael
+Debut:  4/5/2011
+Finale: 9/26/2020
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 35... this could go badly...
+ID:     polivke01
+Name:   Polivka, Ken
+Debut:  4/18/1947
+Finale: 4/23/1947
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 36... this could go badly...
+ID:     roserbu01
+Name:   Roser, Bunny
+Debut:  8/24/1922
+Finale: 9/22/1922
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 37... this could go badly...
+ID:     shamsar01
+Name:   Shamsky, Art
+Debut:  4/17/1965
+Finale: 7/18/1972
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 38... this could go badly...
+ID:     sonnaan01
+Name:   Sonnanstine, Andy
+Debut:  6/5/2007
+Finale: 9/20/2011
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 39... this could go badly...
+ID:     spencji01
+Name:   Spencer, Jim
+Debut:  9/7/1968
+Finale: 6/20/1982
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 40... this could go badly...
+ID:     stronji01
+Name:   Stroner, Jim
+Debut:  5/1/1929
+Finale: 5/31/1929
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 41... this could go badly...
+ID:     telghda01
+Name:   Telgheder, Dave
+Debut:  6/12/1993
+Finale: 6/2/1998
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 42... this could go badly...
+ID:     thompfr03
+Name:   Thompson, Fresco
+Debut:  9/5/1925
+Finale: 4/22/1934
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 43... this could go badly...
+ID:     valdeca01
+Name:   Valdez, Carlos
+Debut:  7/18/1995
+Finale: 9/27/1998
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 44... this could go badly...
+ID:     waltepj01
+Name:   Walters, P. J.
+Debut:  4/17/2009
+Finale: 7/3/2013
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 45... this could go badly...
+ID:     waltobr01
+Name:   Walton, Bruce
+Debut:  5/11/1991
+Finale: 7/4/1994
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 46... this could go badly...
+ID:     warreto01
+Name:   Warren, Tommy
+Debut:  4/18/1944
+Finale: 9/3/1944
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 47... this could go badly...
+ID:     watsodo01
+Name:   Watson, Doc
+Debut:  9/3/1913
+Finale: 9/21/1915
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 48... this could go badly...
+ID:     willimi02
+Name:   Williams, Mitch
+Debut:  4/9/1986
+Finale: 5/10/1997
+Going to compare your entry to the reference entry:
+OK... those do match
+Going to try to print element at index 49... this could go badly...
+ID:     zimmedo01
+Name:   Zimmer, Don
+Debut:  7/2/1954
+Finale: 10/2/1965
+Going to compare your entry to the reference entry:
+OK... those do match
+1 >> Score for AL_create():  530 / 530

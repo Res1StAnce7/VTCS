@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\r\n\ \ Thecommand\ interface.\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.11.17\r\n
+comment1.params=
+comment1.target=void\ execute()
+comment1.text=\r\n\ Executes\ commands.\r\n
+numComments=2

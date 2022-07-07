@@ -1,0 +1,204 @@
+Beginning test of String_strcat()
+
+Left String is:   >>You've got to stand for something or you're gonna fall for anything...<<
+Right String is:  >>you stay awhile and then you're gone again...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>You've got to stand for something or you're gonna fall for anything...you stay awhile and then you're gone again...<<
+Your string:      >>You've got to stand for something or you're gonna fall for anything...you stay awhile and then you're gone again...<<
+Good!  That was correct.
+
+Left String is:   >>Down the ancient corridors and through the gates of time...<<
+Right String is:  >>and it's not quite like you planned?...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>Down the ancient corridors and through the gates of time...and it's not quite like you planned?...<<
+Your string:      >>Down the ancient corridors and through the gates of time...and it's not quite like you planned?...<<
+Good!  That was correct.
+
+Left String is:   >>I wish you hope when things are going bad...<<
+Right String is:  >>through fog and rain and far beyond...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>I wish you hope when things are going bad...through fog and rain and far beyond...<<
+Your string:      >>I wish you hope when things are going bad...through fog and rain and far beyond...<<
+Good!  That was correct.
+
+Left String is:   >>I've got two tickets to paradise...<<
+Right String is:  >>there's still time to change the road you're on...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>I've got two tickets to paradise...there's still time to change the road you're on...<<
+Your string:      >>I've got two tickets to paradise...there's still time to change the road you're on...<<
+Good!  That was correct.
+
+Left String is:   >>There's a train in the distance, autumn leaves are falling...<<
+Right String is:  >>do you want to hear me beg you to take me back?...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>There's a train in the distance, autumn leaves are falling...do you want to hear me beg you to take me back?...<<
+Your string:      >>There's a train in the distance, autumn leaves are falling...do you want to hear me beg you to take me back?...<<
+Good!  That was correct.
+
+Left String is:   >>Doctor, my eyes have seen the years and the slow parade of fears...<<
+Right String is:  >>oh, when I'm bathed in the firelight...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>Doctor, my eyes have seen the years and the slow parade of fears...oh, when I'm bathed in the firelight...<<
+Your string:      >>Doctor, my eyes have seen the years and the slow parade of fears...oh, when I'm bathed in the firelight...<<
+Good!  That was correct.
+
+Left String is:   >>The answer my friend is blowin' in the wind...<<
+Right String is:  >>run the ghosts of dreams that we left behind<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>The answer my friend is blowin' in the wind...run the ghosts of dreams that we left behind<<
+Your string:      >>The answer my friend is blowin' in the wind...run the ghosts of dreams that we left behind<<
+Good!  That was correct.
+
+Left String is:   >>The answer my friend is blowin' in the wind...<<
+Right String is:  >>and I recall...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>The answer my friend is blowin' in the wind...and I recall...<<
+Your string:      >>The answer my friend is blowin' in the wind...and I recall...<<
+Good!  That was correct.
+
+Left String is:   >>The pain of war cannot exceed the woe of aftermath...<<
+Right String is:  >>they will be riding with you wherever you may go...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>The pain of war cannot exceed the woe of aftermath...they will be riding with you wherever you may go...<<
+Your string:      >>The pain of war cannot exceed the woe of aftermath...they will be riding with you wherever you may go...<<
+Good!  That was correct.
+
+Left String is:   >>Doctor, my eyes have seen the years and the slow parade of fears...<<
+Right String is:  >>say I'm old-fashioned, say I'm over the hill...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>Doctor, my eyes have seen the years and the slow parade of fears...say I'm old-fashioned, say I'm over the hill...<<
+Your string:      >>Doctor, my eyes have seen the years and the slow parade of fears...say I'm old-fashioned, say I'm over the hill...<<
+Good!  That was correct.
+
+Left String is:   >>Oh! Seems so long since we walked in the moonlight...<<
+Right String is:  >>through fog and rain and far beyond...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>Oh! Seems so long since we walked in the moonlight...through fog and rain and far beyond...<<
+Your string:      >>Oh! Seems so long since we walked in the moonlight...through fog and rain and far beyond...<<
+Good!  That was correct.
+
+Left String is:   >>You gotta reap just what you sow, that old saying is true...<<
+Right String is:  >>But it's a long road out of Eden...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>You gotta reap just what you sow, that old saying is true...But it's a long road out of Eden...<<
+Your string:      >>You gotta reap just what you sow, that old saying is true...But it's a long road out of Eden...<<
+Good!  That was correct.
+
+Left String is:   >>Oh mother, tell your children not to do what I have done...<<
+Right String is:  >><<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>Oh mother, tell your children not to do what I have done...<<
+Your string:      >>Oh mother, tell your children not to do what I have done...<<
+Good!  That was correct.
+
+Left String is:   >><<
+Right String is:  >>and I recall...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>and I recall...<<
+Your string:      >>and I recall...<<
+Good!  That was correct.
+
+Left String is:   >><<
+Right String is:  >><<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >><<
+Your string:      >><<
+Good!  That was correct.
+
+Left String is:   >>I fight authority, authority always wins...<<
+Right String is:  >>I like that old-time rock 'n' roll...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>I fight authority, authority always wins...I like that old-time rock 'n' roll...<<
+Your string:      >>I fight authority, authority always wins...I like that old-time rock 'n' roll...<<
+Good!  That was correct.
+
+Left String is:   >>You can't hide your lyin' eyes...<<
+Right String is:  >>say I'm old-fashioned, say I'm over the hill...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>You can't hide your lyin' eyes...say I'm old-fashioned, say I'm over the hill...<<
+Your string:      >>You can't hide your lyin' eyes...say I'm old-fashioned, say I'm over the hill...<<
+Good!  That was correct.
+
+Left String is:   >>You gotta reap just what you sow, that old saying is true...<<
+Right String is:  >>oh, when I'm bathed in the firelight...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>You gotta reap just what you sow, that old saying is true...oh, when I'm bathed in the firelight...<<
+Your string:      >>You gotta reap just what you sow, that old saying is true...oh, when I'm bathed in the firelight...<<
+Good!  That was correct.
+
+Left String is:   >>It's a hard rain's a-gonna fall...<<
+Right String is:  >>But it's a long road out of Eden...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>It's a hard rain's a-gonna fall...But it's a long road out of Eden...<<
+Your string:      >>It's a hard rain's a-gonna fall...But it's a long road out of Eden...<<
+Good!  That was correct.
+
+Left String is:   >>There's a bad moon on the rise...<<
+Right String is:  >>and you wonder what happened to the golden rule...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>There's a bad moon on the rise...and you wonder what happened to the golden rule...<<
+Your string:      >>There's a bad moon on the rise...and you wonder what happened to the golden rule...<<
+Good!  That was correct.
+
+Completed test of String_strcat()
+

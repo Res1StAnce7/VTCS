@@ -1,0 +1,1 @@
+valgrind --tool=memcheck --leak-check=full --track-origins=yes --show-leak-kinds=all ./c08 1 test.txt FullMLB.txt

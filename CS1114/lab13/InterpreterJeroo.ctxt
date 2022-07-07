@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=InterpreterJeroo
+comment0.text=\r\n\ \ A\ remotely\ controllable\ jeroo\ that\ reads\ commands\r\n\ \ from\ a\ scanner\ and\ uses\ a\ map\ to\ translate\ words\r\n\ \ into\ commands.\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.11.17\r\n
+comment1.params=
+comment1.target=InterpreterJeroo()
+comment1.text=\r\n\ Creates\ a\ new\ InterpreterJeroo\ object.\r\n
+comment2.params=input
+comment2.target=void\ interpretAllCommands(java.util.Scanner)
+comment2.text=\r\n\ Calls\ interpretCommand()\ repeatedly\ until\ there\ are\ no\ more\r\n\ words\ left\ in\ the\ given\ Scanner.\r\n\ \r\n\ @param\ input\ The\ Scanner\ to\ read\ the\ command\ from.\r\n
+comment3.params=input
+comment3.target=void\ interpretCommand(java.util.Scanner)
+comment3.text=\r\n\ Reads\ one\ word\ from\ the\ scanner\ (if\ there\ is\ any),\ and\ executes\r\n\ the\ corresponding\ command.\ \ If\ the\ scanner\ has\ no\ words\ remaining,\r\n\ then\ nothing\ happens.\r\n\ \r\n\ @param\ input\ The\ Scanner\ to\ read\ the\ command\ from.\r\n
+numComments=4

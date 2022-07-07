@@ -1,0 +1,16 @@
+Interpreting 1 signed bytes at offset B0:
+	-126
+Interpreting 1 unsigned bytes at offset B0:
+	130
+Interpreting 2 signed bytes at offset C5:
+	9235
+Interpreting 2 unsigned bytes at offset C5:
+	9235
+Interpreting 4 signed bytes at offset 1E:
+	875315743
+Interpreting 4 unsigned bytes at offset 1E:
+	875315743
+Interpreting 8 signed bytes at offset 1B:
+	1744067618200748945
+Interpreting 8 unsigned bytes at offset 1B:
+	1744067618200748945

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TransformablePictureTest
+comment0.text=\r\n\ \ Unit\ tests\ for\ Transformable\ Picture\ in\ Lab\ 08.\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.10.12\r\n
+comment1.params=
+comment1.target=TransformablePictureTest()
+comment1.text=\r\n\ Creates\ a\ new\ TransformablePictureTest\ test\ object.\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testRadialShadow()
+comment3.text=\r\n\ An\ example\ test\ case\ that\ shows\ how\ to\ test\ the\ pixel\ values\r\n\ in\ a\ tiny\ 3x3\ test\ image.\r\n
+comment4.params=
+comment4.target=void\ testAdjustPixel()
+comment4.text=\r\n\ Pass\ 30\ and\ test\ if\ the\ pixel\ is\ brighter\ by\ 30\r\n
+comment5.params=
+comment5.target=void\ testRadialGlow()
+comment5.text=\r\n\ An\ example\ test\ case\ that\ shows\ how\ to\ test\ the\ pixel\ values\r\n\ in\ a\ tiny\ 3x3\ test\ image.\r\n
+comment6.params=
+comment6.target=void\ testColorShift()
+comment6.text=\r\n\ An\ example\ test\ case\ that\ shows\ how\ to\ test\ the\ pixel\ values\r\n\ in\ a\ tiny\ 3x3\ test\ image.\r\n
+numComments=7

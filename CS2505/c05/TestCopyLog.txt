@@ -1,0 +1,85 @@
+Beginning test of String_strcpy()
+
+Initializing String with:  >>Many words are spoken when there's nothing to say...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>Many words are spoken when there's nothing to say...<<
+Your string:      >>Many words are spoken when there's nothing to say...<<
+Good!  That was correct.
+
+Initializing String with:  >>Hello darkness, my old friend, I've come to talk with you again...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>Hello darkness, my old friend, I've come to talk with you again...<<
+Your string:      >>Hello darkness, my old friend, I've come to talk with you again...<<
+Good!  That was correct.
+
+Initializing String with:  >>Now it seems to me, some fine things have been laid upon your table...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>Now it seems to me, some fine things have been laid upon your table...<<
+Your string:      >>Now it seems to me, some fine things have been laid upon your table...<<
+Good!  That was correct.
+
+Initializing String with:  >>It ain't no use to sit and wonder why, babe...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>It ain't no use to sit and wonder why, babe...<<
+Your string:      >>It ain't no use to sit and wonder why, babe...<<
+Good!  That was correct.
+
+Initializing String with:  >>And as we wind on down the road...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>And as we wind on down the road...<<
+Your string:      >>And as we wind on down the road...<<
+Good!  That was correct.
+
+Initializing String with:  >>Down the ancient corridors and through the gates of time...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >><<
+Your string:      >><<
+Good!  That was correct.
+
+Initializing String with:  >>After midnight, we're gonna let it all hang out...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>After midnight, we're gonna let it all hang out...<<
+Your string:      >>After midnight, we're gonna let it all hang out...<<
+Good!  That was correct.
+
+Initializing String with:  >>I'm just tryin' to tell the truth every time I sing the blues...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>I'm just tryin' to tell the truth every time I sing the blues...<<
+Your string:      >>I'm just tryin' to tell the truth every time I sing the blues...<<
+Good!  That was correct.
+
+Initializing String with:  >>Do you want to see me crawl across the floor to you?...<<
+String length OK?  Good!
+Are the Strings sharing an array?
+   Good... they have different arrays...
+Are the correct characters stored?
+Reference string: >>Do you want to see me crawl across the floor to you?...<<
+Your string:      >>Do you want to see me crawl across the floor to you?...<<
+Good!  That was correct.
+
+Completed test of String_strcpy()
+

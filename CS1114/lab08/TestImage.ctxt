@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestImage
+comment0.text=\r\n\ \ A\ simple\ image\ of\ a\ specified\ size\ with\ a\ solid\ color\ filling\ all\ pixels.\r\n\ \ This\ class\ is\ useful\ for\ testing\ simple\ color\ transformations.\r\n\r\n\ \ @author\ Stephen\ Edwards\r\n\ \ @version\ 2021.10.08\r\n
+comment1.params=width\ height
+comment1.target=TestImage(int,\ int)
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ TestImage\ object\ where\ all\ pixels\r\n\ are\ (100,\ 100,\ 100).\r\n\ \r\n\ @param\ width\ The\ width\ of\ the\ image\r\n\ @param\ height\ The\ height\ of\ the\ image\r\n
+comment2.params=width\ height\ colorValue
+comment2.target=TestImage(int,\ int,\ int)
+comment2.text=\r\n\ Initializes\ a\ newly\ created\ TestImage\ object.\r\n\ \r\n\ @param\ width\ The\ width\ of\ the\ image\r\n\ @param\ height\ The\ height\ of\ the\ image\r\n\ @param\ colorValue\ The\ color\ to\ paint\ all\ pixels\r\n
+numComments=3

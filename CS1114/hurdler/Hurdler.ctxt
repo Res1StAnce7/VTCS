@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Hurdler
+comment0.text=\r\n\ \ A\ jeroo\ that\ "hurdles"\ (crosses\ over)\ lines\ of\ nets\ that\ project\r\n\ \ up\ from\ the\ south\ shore.\r\n\r\n\ \ @author\ Stephen\ Edwards\ (stedwar2)\r\n\ \ @version\ 2013.02.11\r\n
+comment1.params=
+comment1.target=Hurdler()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ Hurdler\ object.\r\n
+comment2.params=
+comment2.target=void\ myProgram()
+numComments=3

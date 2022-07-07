@@ -1,0 +1,6 @@
+./compare test1 refShowValue.txt stuShowValue.txt
+./compare test1 refShowBytes.txt stuShowBytes.txt
+./compare test1 refFindByte.txt stuFindByte.txt
+./compare test1 refFindSequence.txt stuFindSequence.txt
+./compare test1 refCopyBlock.txt stuCopyBlock.txt
+./compare test1 refBlendBytes.txt stuBlendBytes.txt

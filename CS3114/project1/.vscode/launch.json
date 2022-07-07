@@ -1,0 +1,12 @@
+{
+    "configurations": [
+    {
+      "type": "java",
+      "name": "Launch BigNumArithmetic",
+      "request": "launch",
+      "mainClass": "BigNumArithmetic",
+      "projectName": "project1",
+      "args": "input.txt"
+    }
+]
+}

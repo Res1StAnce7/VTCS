@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Application
+comment0.text=\n\ \ Write\ a\ one-sentence\ summary\ of\ your\ class\ here.\n\ \ Follow\ it\ with\ additional\ details\ about\ its\ purpose,\ what\ abstraction\n\ \ it\ represents,\ and\ how\ to\ use\ it.\n\n\ \ @author\ your\ name\ (your-pid)\n\ \ @version\ (place\ the\ date\ here,\ in\ this\ format\:\ yyyy.mm.dd)\n
+comment1.params=
+comment1.target=Application()
+comment1.text=\n\ Initializes\ your\ Application.\n
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Application
+comment0.text=\n\ Application\ launcher\ for\ Lab\ 01.\n\n\ @author\ Stephen\ Edwards\n\ @version\ 2021.08.23\n
+comment1.params=
+comment1.target=Application()
+comment1.text=\n\ This\ constructor\ defines\ the\ project\ and\ initial\ class\ when\n\ launching\ the\ application.\n
+numComments=2

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CopyingJeroo
+comment0.text=\r\n\ \ A\ Jeroo\ that\ walks\ every\ cell\ in\ on\ an\ island\ and\ uses\ delegation\r\n\ \ to\ instruct\ a\ second\ jeroo\ to\ follow\ its\ motions\ and\ plant\ a\ flower\r\n\ \ anywhere\ it\ finds\ one.\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.10.07\r\n
+comment1.params=jeroo
+comment1.target=CopyingJeroo(student.micro.jeroo.Jeroo)
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ CopyingJeroo\ object.\r\n\ @param\ jeroo\ the\ jeroo\ object\r\n
+comment2.params=
+comment2.target=void\ walkIsland()
+comment2.text=\r\n\ Walk\ a\ pattern\ over\ every\ grid\ location\ on\ the\ current\ island.\r\n
+comment3.params=
+comment3.target=void\ hopToWater()
+comment3.text=\r\n\ Hop\ forward\ until\ we\ reach\ the\ water.\r\n
+comment4.params=
+comment4.target=boolean\ isAtEndPoint()
+comment4.text=\r\n\ Check\ if\ Jeroo\ is\ at\ the\ end\ point\r\n\ @return\ if\ the\ Jeroo\ is\ at\ the\ end\ point\ return\ true\r\n
+comment5.params=
+comment5.target=void\ hop()
+comment5.text=\r\n\ Override\ the\ hop()\ method\ so\ that\r\n\ both\ Jerooes\ will\ hop\r\n
+comment6.params=direction
+comment6.target=void\ turn(student.micro.jeroo.RelativeDirection)
+comment6.text=\r\n\ Override\ the\ turn()\ method\ so\ that\r\n\ both\ Jerooes\ will\ turn\ \r\n\ @param\ direction\ the\ direction\ to\ turn\ to\r\n
+comment7.params=
+comment7.target=void\ plantIfSeesFlower()
+comment7.text=\r\n\ The\ copier\ will\ plant\ if\ the\ master\ sees\ a\ flower\ HERE\r\n
+numComments=8

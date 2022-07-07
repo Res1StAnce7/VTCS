@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CalendarTest
+comment0.text=\r\n\ \ Tests\ for\ the\ Calendar\ class.\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.11.03\r\n
+comment1.params=
+comment1.target=CalendarTest()
+comment1.text=\r\n\ Creates\ a\ new\ CalendarTest\ test\ object.\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testAddEvent()
+comment3.text=\r\n\ Test\ the\ addEvent()\ method\r\n
+numComments=4

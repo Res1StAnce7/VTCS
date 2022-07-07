@@ -1,0 +1,11 @@
+Executing gradeC07.sh...
+
+Creating build subdirectory
+
+Copying student source file to the build directory:
+
+Unpacking test code into build directory:
+Compiling test code and submission
+
+Build succeeded...
+Moving the executable Untangle_c07 to the test directory.

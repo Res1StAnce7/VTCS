@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SquarePlanter
+comment0.text=\r\n\ \ It\ is\ a\ subclass\ of\ Jeroo\r\n\ \ It\ will\ create\ a\ K+1\ by\ K+1\ square\ \r\n\ \ on\ the\ island\ by\ planting\ K\ flowers\r\n\ \ on\ each\ side\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.09.21\r\n
+comment1.params=flowerPerSide
+comment1.target=SquarePlanter(int)
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ flowerPerSide\ object.\r\n\ @param\ flowerPerSide\ the\ value\ needed\ to\ call\ the\ constructor\r\n
+comment2.params=
+comment2.target=void\ plantSquare()
+comment2.text=\r\n\ It\ will\ make\ a\ square\ by\ planting\ \r\n\ K\ flowers\ on\ each\ side\r\n
+comment3.params=
+comment3.target=void\ plantOneSide()
+comment3.text=\r\n\ It\ will\ plant\ certain\ numbers\ of\ flowers\r\n\ on\ each\ side\r\n
+numComments=4

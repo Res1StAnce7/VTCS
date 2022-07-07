@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ForwardCommand
+comment0.text=\r\n\ \ Make\ Jeroo\ move\ forward.\r\n\r\n\ \ @author\ Siliang\ Zhang\ (906467527)\r\n\ \ @version\ 2021.11.17\r\n
+comment1.params=tempJeroo
+comment1.target=ForwardCommand(student.micro.jeroo.Jeroo)
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ ForwardCommand\ object.\r\n\ @param\ tempJeroo\ The\ Jeroo.\r\n
+comment2.params=
+comment2.target=void\ execute()
+comment2.text=\r\n\ The\ forward\ command.\r\n
+numComments=3

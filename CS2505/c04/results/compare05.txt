@@ -1,0 +1,54 @@
+Comparing reference file refCopyBlock.txt to student file stuCopyBlock.txt:
+
+[ 0/ 0]  Copying 1 byte(s) from offset 0x18C to offset 0x34A
+[ 0/ 0]  Source "line" before call:       0x00000180:  09..D3..09..F7..4C..5B..5C..F0..5F..A1..EF..85..AB..FE..D0..53
+[ 0/ 0]  Destination "line" before call:  0x00000340:  FD..E6..95..55..3D..76..94..6A..C9..BC..C0..F6..B0..73..02..2E
+[ 0/ 0]  Destination "line" after call:
+[10/10]                                                FD..E6..95..55..3D..76..94..6A..C9..BC..AB..F6..B0..73..02..2E
+[ 0/ 0]  
+[ 0/ 0]  Copying 1 byte(s) from offset 0x352 to offset 0x1E1
+[ 0/ 0]  Source "line" before call:       0x00000350:  78..94..98..B3..FC..43..2E..54..0E..EF..7F..56..0A..79..B2..07
+[ 0/ 0]  Destination "line" before call:  0x000001E0:  68..98..B9..92..45..D3..FA..29..4C..4B..42..F4..DA..8C..B0..21
+[ 0/ 0]  Destination "line" after call:
+[10/10]                                                68..98..B9..92..45..D3..FA..29..4C..4B..42..F4..DA..8C..B0..21
+[ 0/ 0]  
+[ 0/ 0]  Copying 2 byte(s) from offset 0x37 to offset 0x343
+[ 0/ 0]  Source "line" before call:       0x00000030:  1E..DA..6B..9E..E3..8A..5D..CA..40..04..3C..EF..25..1E..4C..9D
+[ 0/ 0]  Destination "line" before call:  0x00000340:  FD..E6..95..55..3D..76..94..6A..C9..BC..AB..F6..B0..73..02..2E
+[ 0/ 0]  Destination "line" after call:
+[10/10]                                                FD..E6..95..CA..40..76..94..6A..C9..BC..AB..F6..B0..73..02..2E
+[ 0/ 0]  
+[ 0/ 0]  Copying 4 byte(s) from offset 0x1C0 to offset 0x303
+[ 0/ 0]  Source "line" before call:       0x000001C0:  C5..8C..64..40..29..AC..1A..68..E4..79..51..19..A8..8E..49..BB
+[ 0/ 0]  Destination "line" before call:  0x00000300:  FE..98..88..1C..24..76..6A..A8..E6..D6..72..E9..29..D9..CC..5C
+[ 0/ 0]  Destination "line" after call:
+[10/10]                                                FE..98..88..C5..8C..64..40..A8..E6..D6..72..E9..29..D9..CC..5C
+[ 0/ 0]  
+[ 0/ 0]  Copying 5 byte(s) from offset 0x1A3 to offset 0x305
+[ 0/ 0]  Source "line" before call:       0x000001A0:  0B..1F..41..58..7A..9D..48..DA..3E..37..5F..E9..35..2F..3D..30
+[ 0/ 0]  Destination "line" before call:  0x00000300:  FE..98..88..C5..8C..64..40..A8..E6..D6..72..E9..29..D9..CC..5C
+[ 0/ 0]  Destination "line" after call:
+[10/10]                                                FE..98..88..C5..8C..58..7A..9D..48..DA..72..E9..29..D9..CC..5C
+[ 0/ 0]  
+[ 0/ 0]  Copying 6 byte(s) from offset 0x4 to offset 0x353
+[ 0/ 0]  Source "line" before call:       0x00000000:  AD..57..A0..0B..A7..90..F2..6D..93..44..7A..CD..38..2B..D3..1C
+[ 0/ 0]  Destination "line" before call:  0x00000350:  78..94..98..B3..FC..43..2E..54..0E..EF..7F..56..0A..79..B2..07
+[ 0/ 0]  Destination "line" after call:
+[10/10]                                                78..94..98..A7..90..F2..6D..93..44..EF..7F..56..0A..79..B2..07
+[ 0/ 0]  
+[ 0/ 0]  Copying 12 byte(s) from offset 0x140 to offset 0x320
+[ 0/ 0]  Source "line" before call:       0x00000140:  50..38..08..6A..4D..74..7A..18..77..2A..B2..E0..5C..21..C5..0F
+[ 0/ 0]  Destination "line" before call:  0x00000320:  14..E2..EC..39..58..56..E1..3E..2D..53..28..56..2D..F4..B2..0B
+[ 0/ 0]  Destination "line" after call:
+[10/10]                                                50..38..08..6A..4D..74..7A..18..77..2A..B2..E0..2D..F4..B2..0B
+[ 0/ 0]  
+[ 0/ 0]  Copying 11 byte(s) from offset 0x81 to offset 0x371
+[ 0/ 0]  Source "line" before call:       0x00000080:  15..C1..AE..0C..C0..D6..55..89..7F..22..60..9A..3B..65..03..0B
+[ 0/ 0]  Destination "line" before call:  0x00000370:  13..23..66..0F..66..94..64..75..84..E3..CB..8E..5C..7D..96..BC
+[ 0/ 0]  Destination "line" after call:
+[10/10]                                                13..C1..AE..0C..C0..D6..55..89..7F..22..60..9A..5C..7D..96..BC
+Student solution contained 47 lines
+Reference solution contained 48 lines
+Your score might have suffered as a result.
+
+5 >> Score from stuCopyBlock.txt:  80 / 80
