@@ -1,14 +1,14 @@
 public class ChessTree {
-    private Node root;
+    private TreeNode root;
     private int visited;
 
     public ChessTree(String startBoard) {
-        this.root = new Node(startBoard, 0, 
+        this.root = new TreeNode(startBoard, 0, 
             ChessFaker.getFitness(startBoard), "", new String[1]);
         this.visited = 0;
     }
 
-    public void buildTree(int depth, Node curr) {
+    public void buildTree(int depth, TreeNode curr) {
         if (curr.getDepth() == depth) {
             return;
         }
@@ -18,20 +18,19 @@ public class ChessTree {
         }
     }
 
-    public Node[] genNextBoards(Node board) {
+    public TreeNode[] genNextBoards(TreeNode board) {
         String[] nextMove = ChessFaker.getNextMoves(board.getEntry());
-        Node[] nextBoard = new Node[nextMove.length];
+        TreeNode[] nextBoard = new TreeNode[nextMove.length];
         for (int i = 0; i < nextMove.length; i++) {
             String next = ChessFaker.getNextBoard(board.getEntry(), nextMove[i]);
-            nextBoard[i] = new Node(next, board.getDepth() + 1, 
-                            ChessFaker.getFitness(next), nextMove[i], 
-                            new String[board.getDepth() + 1]);
+            nextBoard[i] = new TreeNode(next, board.getDepth() + 1, 
+                            ChessFaker.getFitness(next), nextMove[i], new String[board.getDepth() + 1]);
             nextBoard[i].setMoves(board);
         }
         return nextBoard;
     }
 
-    public void printTree(Node curr) {
+    public void printTree(TreeNode curr) {
         if (curr.getDepth() == 0) {
             System.out.println(curr.getEntry() + " fitness: " + curr.getFitness());
         }
@@ -46,7 +45,7 @@ public class ChessTree {
         }
     }
 
-    public int[] dfs(Node node, String target, int depth, int moves) {
+    public int[] dfs(TreeNode node, String target, int depth, int moves) {
         this.visited++;
         if (node.getEntry().equals(target)) {
             return new int[] {visited, moves};
@@ -65,7 +64,7 @@ public class ChessTree {
         }
     }
 
-    public Node getRoot() {
+    public TreeNode getRoot() {
         return this.root;
     }
 
