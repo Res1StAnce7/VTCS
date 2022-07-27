@@ -19,6 +19,7 @@ public class Chess {
             chess.dfs("ViennaOpen", "VJenWgoYen", depth);
         }
     }
+    
     public void print() {
         tree.printTree(tree.getRoot());
     }
