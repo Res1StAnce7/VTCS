@@ -24,7 +24,8 @@ public class ChessTree {
         for (int i = 0; i < nextMove.length; i++) {
             String next = ChessFaker.getNextBoard(board.getEntry(), nextMove[i]);
             nextBoard[i] = new Node(next, board.getDepth() + 1, 
-                            ChessFaker.getFitness(next), nextMove[i], new String[board.getDepth() + 1]);
+                            ChessFaker.getFitness(next), nextMove[i], 
+                            new String[board.getDepth() + 1]);
             nextBoard[i].setMoves(board);
         }
         return nextBoard;
