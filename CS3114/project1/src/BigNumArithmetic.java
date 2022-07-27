@@ -73,7 +73,7 @@ public class BigNumArithmetic {
             sc.close();
         } 
         catch (IOException e) {
-            System.out.println("File not found");
+            System.exit(1);
         }
     }
 
@@ -119,11 +119,11 @@ public class BigNumArithmetic {
                         stack.push(toList(add(toString(op1), toString(op2))));
                     } 
                     else if (str.equals("*")) {
-                        stack.push(toList(multiply(toString(op1),
-                                toString(op2))));
+                        stack.push(toList(multiply(toString(op1), toString(op2))));
                     } 
                     else if (str.equals("^")) {
-                        stack.push(toList(power(toString(op2), toString(op1))));
+                        stack.push(toList(power(toString(op2),
+                                    Integer.parseInt(toString(op1)))));
                     }
                 }
                 operator++;
@@ -303,7 +303,8 @@ public class BigNumArithmetic {
     }
 
     /**
-     * The function takes two strings as arguments and power them
+     * The function takes a string and an integer 
+     * as arguments and power them
      *
      * Variable Explanation:
      * half is the new exponent
@@ -313,14 +314,14 @@ public class BigNumArithmetic {
      *
      * @return The string which contains the result
      */
-    public String power(String op1, String op2) {
-        if (op2.equals("0")) {
+    public String power(String op1, int op2) {
+        if (op2 == 0) {
             return "1";
         }
 
-        String half = power(op1, String.valueOf(Integer.parseInt(op2) / 2));
+        String half = power(op1, op2 / 2);
 
-        if (Integer.parseInt(op2) % 2 == 0) {
+        if (op2 % 2 == 0) {
             return multiply(half, half);
         } 
         else {
