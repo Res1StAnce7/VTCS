@@ -1,10 +1,3 @@
-/**
- * The class implements a templated node
- * 
- * @author Siliang Zhang
- * 
- * @version 2022-05-25
- */
 public class Node {
     private String entry;
     private int depth;
