@@ -1,6 +1,6 @@
 /**
- * The main class of the Chess project which involves print,
- * dfs and bfs algorithms.
+ * The main class of the Chess project which involves preorder print,
+ * depth-first search, and breadth-first search.
  * 
  * @author Siliang Zhang
  * @version 2022.07.28
@@ -12,10 +12,10 @@ public class Chess {
     /**
      * The main method of the Chess project.
      * @param args the command line arguments
-     * @throws Exception 
+     * @throws Exception The exception.
      */
     public static void main(String[] args) throws Exception {
-        runTask(3, 2, "ViennaOpen");
+        runTask(2, 4, "ViennaOpen", "VienngOSen");
     }
 
     /**
@@ -41,15 +41,16 @@ public class Chess {
      * @param index the index of the task
      * @param depth the depth limit
      * @param start the start board
+     * @param target the target board
      */
-    public static void runTask(int index, int depth, String start) {
+    public static void runTask(int index, int depth, String start, String target) {
         if (index == 1 || index == 2) {
             Chess chess = new Chess(depth, start);
             if (index == 1) {
                 chess.print();
             }
             else {
-                chess.dfs(start, "VienngOSen", depth);
+                chess.dfs(start, target, depth);
             }
         }
         else {
@@ -59,7 +60,7 @@ public class Chess {
     }
 
     /**
-     * Will call the print method of the ChessTree class and print the tree.
+     * Call the print method of the ChessTree class and print the tree.
      */
     public void print() {
         tree.printTree(tree.getRoot());
