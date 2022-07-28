@@ -421,7 +421,7 @@ Nodes visited: 58820
 Durantion: 2
 
 
-One args: Breadth First Search to win
+One arg: Breadth First Search to win
 
 <Using 160 instead of 200 as the difference of fitness between the start and the win state>
 <Shoul find the a proper start state to satisfiy the 200 requirement in the spec>
