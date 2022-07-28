@@ -12,7 +12,7 @@ public class Chess {
     }
 
     public Chess(String start) {
-        this.queue = new ChessQueue("ViennaOpen");
+        this.queue = new ChessQueue(start);
     }
 
     public static void runTask(int index, int depth, String start) {
@@ -22,7 +22,7 @@ public class Chess {
                 chess.print();
             }
             else {
-                chess.dfs(start, "HJenWpoSen", depth);
+                chess.dfs(start, "VienngOSen", depth);
             }
         }
         else {

@@ -15,7 +15,7 @@ public class ChessQueue {
         temp.setNext(this.rear);
     }
 
-    public QueueNode[] genNextBoards(QueueNode board) {
+    private QueueNode[] genNextBoards(QueueNode board) {
         String[] nextMove = ChessFaker.getNextMoves(board.getEntry());
         QueueNode[] nextBoard = new QueueNode[nextMove.length];
         for (int i = 0; i < nextMove.length; i++) {
@@ -30,7 +30,7 @@ public class ChessQueue {
         for (int i = 0; i < genNextBoards(node).length; i++) {
             enqueue(genNextBoards(node)[i]);
         }
-        if (ChessFaker.getFitness(start) - ChessFaker.getFitness(node.getEntry()) >= 80) {
+        if (ChessFaker.getFitness(node.getEntry()) - ChessFaker.getFitness(start) >= 160) {
             return new String[] {String.valueOf(moves), node.getEntry(), String.valueOf(this.visited)};
         }
         return bfs(node.getNext(), start, moves + 1);

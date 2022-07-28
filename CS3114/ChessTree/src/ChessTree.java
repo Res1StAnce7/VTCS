@@ -18,7 +18,7 @@ public class ChessTree {
         }
     }
 
-    public TreeNode[] genNextBoards(TreeNode board) {
+    private TreeNode[] genNextBoards(TreeNode board) {
         String[] nextMove = ChessFaker.getNextMoves(board.getEntry());
         TreeNode[] nextBoard = new TreeNode[nextMove.length];
         for (int i = 0; i < nextMove.length; i++) {
