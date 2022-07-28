@@ -415,7 +415,7 @@ Three args: Depth First Search towards target
 
 <Depth Limit = 6>
 Search from ViennaOpen to VienngOSen
-Moves to target: 2
+Moves to target: Rh7 + Qh1
 Target fitness: -42
 Nodes visited: 58820
 Durantion: 2
@@ -423,13 +423,13 @@ Durantion: 2
 
 One arg: Breadth First Search to win
 
-<Using 160 instead of 200 as the difference of fitness between the start and the win state>
-<Shoul find the a proper start state to satisfiy the 200 requirement in the spec>
+<Using 130 instead of 200 as the difference of fitness between the start and the win state>
+<Should find the a proper start board to satisfiy the 200 requirement in the spec>
 <Otherwise, the StackOverflowError will occur>
-Playing to win from: ViennaOpen
-Starting fitness: -63
-Moves to target: 3665
-Win state: VieQVaOSRS
-Target fitness: 98
-Nodes visited: 3665
-Durantion: 68
+Playing to win from: ViennaOpeln
+Starting fitness: -61
+Moves to target: Pf7 + Pd8 + Rg7 + Bf4
+Win state: VJUPnaOpe^[
+Target fitness: 70
+Nodes visited: 1778
+Durantion: 48

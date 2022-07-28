@@ -45,22 +45,22 @@ public class ChessTree {
         }
     }
 
-    public int[] dfs(TreeNode node, String target, int depth, int moves) {
+    public TreeNode dfs(TreeNode curr, String target, int depth) {
         this.visited++;
-        if (node.getEntry().equals(target)) {
-            return new int[] {visited, moves};
+        if (curr.getEntry().equals(target)) {
+            return curr;
         }
-        else if (node.getDepth() == depth) {
-            return new int[] {-1, moves};
+        else if (curr.getDepth() == depth) {
+            return null;
         }
         else {
-            for (int i = 0; i < node.getNumChildren(); i++) {
-                int result[] = dfs(node.getChild(i), target, depth, moves + 1);
-                if (result[0] != -1) {
-                    return result;
+            for (int i = 0; i < curr.getNumChildren(); i++) {
+                TreeNode node = dfs(curr.getChild(i), target, depth);
+                if (node != null) {
+                    return node;
                 }
             }
-            return new int[] {-1, moves};
+            return null;
         }
     }
 

@@ -3,7 +3,7 @@ public class Chess {
     private ChessQueue queue;
 
     public static void main(String[] args) throws Exception {
-        runTask(3, 3, "ViennaOpen");
+        runTask(3, 3, "ViennaOpeln");
     }
 
     public Chess(int depth, String start) {
@@ -37,18 +37,27 @@ public class Chess {
 
     public void dfs(String start, String target, int depth) {
         Long startTime = System.currentTimeMillis();
-        int result[] = tree.dfs(tree.getRoot(), target, depth, 0);
+        TreeNode node = tree.dfs(tree.getRoot(), target, depth);
         Long duration = System.currentTimeMillis() - startTime;
-        dfsStats(start, target, result, duration);
+        dfsStats(start, target, node, duration);
     }
 
-    public void dfsStats(String start, String target, int[] result, Long duration) {
+    public void dfsStats(String start, String target, TreeNode node, Long duration) {
         System.out.println("Search from " + start + " to " + target);
-        System.out.println("Moves to target: " + result[1]);
-        if (result[0] == -1) {
+        if (node == null) {
+            System.out.println("Moves to target: Cannot move to target");
             System.out.println("Target fitness: Unknown");
         }
         else {
+            System.out.print("Moves to target: ");
+            for (int i = 0; i < node.getMoves().length; i++) {
+                if (i != node.getMoves().length - 1) {
+                    System.out.print(node.getMoves()[i] + " + ");
+                }
+                else {
+                    System.out.println(node.getMoves()[i]);
+                }
+            }
             System.out.println("Target fitness: " + ChessFaker.getFitness(target));
         }
         System.out.println("Nodes visited: " + tree.getVisited());
@@ -57,17 +66,25 @@ public class Chess {
 
     public void bfs(String start) {
         Long startTime = System.currentTimeMillis();
-        String[] result = queue.bfs(queue.getFront(), start, 0);
+        QueueNode node = queue.bfs(queue.getFront(), start);
         Long duration = System.currentTimeMillis() - startTime;
-        bfsStats(start, result, duration);
+        bfsStats(start, node, duration);
     }
 
-    public void bfsStats(String start, String[] result, Long duration) {
+    public void bfsStats(String start, QueueNode node, Long duration) {
         System.out.println("Playing to win from: " + start);
         System.out.println("Starting fitness: " + ChessFaker.getFitness(start));
-        System.out.println("Moves to target: " + result[0]);
-        System.out.println("Win state: " + result[1]);
-        System.out.println("Target fitness: " + ChessFaker.getFitness(result[1]));
+        System.out.print("Moves to target: ");
+        for (int i = 0; i < node.getMoves().length; i++) {
+            if (i != node.getMoves().length - 1) {
+                System.out.print(node.getMoves()[i] + " + ");
+            }
+            else {
+                System.out.println(node.getMoves()[i]);
+            }
+        }
+        System.out.println("Win state: " + node.getEntry());
+        System.out.println("Target fitness: " + ChessFaker.getFitness(node.getEntry()));
         System.out.println("Nodes visited: " + queue.getVisited());
         System.out.println("Durantion: " + duration);
     }
