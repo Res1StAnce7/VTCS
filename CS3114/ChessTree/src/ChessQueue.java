@@ -36,7 +36,7 @@ public class ChessQueue {
         return bfs(node.getNext(), start, moves + 1);
     }
 
-    public QueueNode peek() {
+    public QueueNode getFront() {
         return this.front;
     }
 

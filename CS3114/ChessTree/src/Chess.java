@@ -57,7 +57,7 @@ public class Chess {
 
     public void bfs(String start) {
         Long startTime = System.currentTimeMillis();
-        String[] result = queue.bfs(queue.peek(), start, 0);
+        String[] result = queue.bfs(queue.getFront(), start, 0);
         Long duration = System.currentTimeMillis() - startTime;
         bfsStats(start, result, duration);
     }
