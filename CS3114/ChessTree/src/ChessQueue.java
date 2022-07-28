@@ -1,8 +1,18 @@
+/**
+ * This class will perform breadth-first search.
+ * 
+ * @author Siliang Zhang
+ * @version 2022.07.28
+ */
 public class ChessQueue {
     private QueueNode front;
     private QueueNode rear;
     private int visited;
-
+    
+    /**
+     * The constructor of the ChessQueue class.
+     * @param startBoard The start board.
+     */
     public ChessQueue(String startBoard) {
         this.front = new QueueNode(startBoard, ChessFaker.getFitness(startBoard),
             0, "", new String[1]);
@@ -10,12 +20,21 @@ public class ChessQueue {
         this.visited = -1;
     }
 
+    /**
+     * Add a board to the queue.
+     * @param node The board to be added.
+     */
     public void enqueue(QueueNode node) {
         QueueNode temp = this.rear;
         this.rear = node;
         temp.setNext(this.rear);
     }
 
+    /**
+     * Generate next boards.
+     * @param board The current board.
+     * @return The next boards.
+     */
     private QueueNode[] genNextBoards(QueueNode board) {
         String[] nextMove = ChessFaker.getNextMoves(board.getEntry());
         QueueNode[] nextBoard = new QueueNode[nextMove.length];
@@ -28,21 +47,35 @@ public class ChessQueue {
         return nextBoard;
     }
     
-    public QueueNode bfs(QueueNode node, String start) {
+    /**
+     * Find the win board.
+     * @param curr The current board.
+     * @param start The start board.
+     * @return The win board.
+     */
+    public QueueNode bfs(QueueNode curr, String start) {
         this.visited++;
-        for (int i = 0; i < genNextBoards(node).length; i++) {
-            enqueue(genNextBoards(node)[i]);
+        for (int i = 0; i < genNextBoards(curr).length; i++) {
+            enqueue(genNextBoards(curr)[i]);
         }
-        if (ChessFaker.getFitness(node.getEntry()) - ChessFaker.getFitness(start) >= 130) {
-            return node;
+        if (ChessFaker.getFitness(curr.getEntry()) - ChessFaker.getFitness(start) >= 130) {
+            return curr;
         }
-        return bfs(node.getNext(), start);
+        return bfs(curr.getNext(), start);
     }
 
+    /**
+     * Get the front board in the queue.
+     * @return The front board.
+     */
     public QueueNode getFront() {
         return this.front;
     }
 
+    /**
+     * Get the visted counter.
+     * @return The visited counter.
+     */
     public int getVisited() {
         return this.visited;
     }

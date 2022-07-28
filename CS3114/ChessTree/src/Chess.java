@@ -1,20 +1,47 @@
+/**
+ * The main class of the Chess project which involves print,
+ * dfs and bfs algorithms.
+ * 
+ * @author Siliang Zhang
+ * @version 2022.07.28
+ */
 public class Chess {
     private ChessTree tree;
     private ChessQueue queue;
 
+    /**
+     * The main method of the Chess project.
+     * @param args the command line arguments
+     * @throws Exception 
+     */
     public static void main(String[] args) throws Exception {
-        runTask(3, 3, "ViennaOpeln");
+        runTask(3, 2, "ViennaOpen");
     }
 
+    /**
+     * The first constructor of the Chess class.
+     * @param depth the depth limit
+     * @param start the start board
+     */
     public Chess(int depth, String start) {
         this.tree = new ChessTree(start);
         this.tree.buildTree(depth, tree.getRoot()); 
     }
 
+    /**
+     * The second constructor of the Chess class.
+     * @param start the start board
+     */
     public Chess(String start) {
         this.queue = new ChessQueue(start);
     }
 
+    /**
+     * Hepler method to run three tasks.
+     * @param index the index of the task
+     * @param depth the depth limit
+     * @param start the start board
+     */
     public static void runTask(int index, int depth, String start) {
         if (index == 1 || index == 2) {
             Chess chess = new Chess(depth, start);
@@ -31,10 +58,19 @@ public class Chess {
         }
     }
 
+    /**
+     * Will call the print method of the ChessTree class and print the tree.
+     */
     public void print() {
         tree.printTree(tree.getRoot());
     }
 
+    /**
+     * Try to find the target board in the tree with the depth limit.
+     * @param start the start board
+     * @param target the target board
+     * @param depth the depth limit
+     */
     public void dfs(String start, String target, int depth) {
         Long startTime = System.currentTimeMillis();
         TreeNode node = tree.dfs(tree.getRoot(), target, depth);
@@ -42,6 +78,13 @@ public class Chess {
         dfsStats(start, target, node, duration);
     }
 
+    /**
+     * Print the statistics of the dfs algorithm.
+     * @param start the start board
+     * @param target the target board 
+     * @param node the node that contains the result board
+     * @param duration the duration of the search
+     */
     public void dfsStats(String start, String target, TreeNode node, Long duration) {
         System.out.println("Search from " + start + " to " + target);
         if (node == null) {
@@ -64,6 +107,10 @@ public class Chess {
         System.out.println("Durantion: " + duration);
     }
 
+    /**
+     * Find a win board in the tree with the breadth first search.
+     * @param start the start board
+     */
     public void bfs(String start) {
         Long startTime = System.currentTimeMillis();
         QueueNode node = queue.bfs(queue.getFront(), start);
@@ -71,6 +118,12 @@ public class Chess {
         bfsStats(start, node, duration);
     }
 
+    /**
+     * Print the statistics of the bfs algorithm.
+     * @param start the start board
+     * @param node the node that contains the result board
+     * @param duration the duration of the search
+     */
     public void bfsStats(String start, QueueNode node, Long duration) {
         System.out.println("Playing to win from: " + start);
         System.out.println("Starting fitness: " + ChessFaker.getFitness(start));
