@@ -3,31 +3,31 @@ public class Chess {
     private ChessQueue queue;
 
     public static void main(String[] args) throws Exception {
-        runTask(3, 3);
+        runTask(3, 3, "ViennaOpen");
     }
 
-    public Chess(int depth) {
-        this.tree = new ChessTree("ViennaOpen");
+    public Chess(int depth, String start) {
+        this.tree = new ChessTree(start);
         this.tree.buildTree(depth, tree.getRoot()); 
     }
 
-    public Chess() {
+    public Chess(String start) {
         this.queue = new ChessQueue("ViennaOpen");
     }
 
-    public static void runTask(int index, int depth) {
+    public static void runTask(int index, int depth, String start) {
         if (index == 1 || index == 2) {
-            Chess chess = new Chess(depth);
+            Chess chess = new Chess(depth, start);
             if (index == 1) {
                 chess.print();
             }
             else {
-                chess.dfs("ViennaOpen", "HJenWpoSen", depth);
+                chess.dfs(start, "HJenWpoSen", depth);
             }
         }
         else {
-            Chess chess = new Chess();
-            chess.bfs("ViennaOpen");
+            Chess chess = new Chess(start);
+            chess.bfs(start);
         }
     }
 
@@ -67,6 +67,7 @@ public class Chess {
         System.out.println("Starting fitness: " + ChessFaker.getFitness(start));
         System.out.println("Moves to target: " + result[0]);
         System.out.println("Win state: " + result[1]);
+        System.out.println("Target fitness: " + ChessFaker.getFitness(result[1]));
         System.out.println("Nodes visited: " + queue.getVisited());
         System.out.println("Durantion: " + duration);
     }

@@ -30,7 +30,7 @@ public class ChessQueue {
         for (int i = 0; i < genNextBoards(node).length; i++) {
             enqueue(genNextBoards(node)[i]);
         }
-        if (ChessFaker.getFitness(start) - ChessFaker.getFitness(node.getEntry()) >= 40) {
+        if (ChessFaker.getFitness(start) - ChessFaker.getFitness(node.getEntry()) >= 80) {
             return new String[] {String.valueOf(moves), node.getEntry(), String.valueOf(this.visited)};
         }
         return bfs(node.getNext(), start, moves + 1);
