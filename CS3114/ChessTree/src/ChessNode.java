@@ -1,6 +1,6 @@
 /**
  * The abstract class ChessNode.
- 
+ *
  * @author Siliang Zhang
  * @version 2022.07.28
  */
