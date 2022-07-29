@@ -44,7 +44,7 @@ public abstract class ChessNode {
 
     /**
      * The setter method for the depth.
-     * @param depth THe depth.
+     * @param depth The depth.
      */
     public void setDepth(int depth) {
         this.depth = depth;

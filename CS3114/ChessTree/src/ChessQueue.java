@@ -54,14 +54,34 @@ public class ChessQueue {
         }
         return nextBoard;
     }
-    
+
     /**
-     * Find the win board.
+     * Iteratively try to find the win board. (Potentaily runtime error)
      * @param curr The current board.
      * @param start The start board.
      * @return The win board.
      */
     public QueueNode bfs(QueueNode curr, int startFitness) {
+        for (;;) {
+            this.visited++;
+            if (ChessFaker.getFitness(curr.getEntry()) - startFitness >= 200) {
+                return curr;
+            }
+            for (int i = 0; i < genNextBoards(curr).length; i++) {
+                enqueue(genNextBoards(curr)[i]);
+            }
+            dequeue();
+            curr = curr.getNext();
+        }
+    }
+    
+    /**
+     * Recursively try to find the win board. (Potentaily stackOverFlow error)
+     * @param curr The current board.
+     * @param start The start board.
+     * @return The win board.
+     */
+    public QueueNode bfsRec(QueueNode curr, int startFitness) {
         this.visited++;
         if (ChessFaker.getFitness(curr.getEntry()) - startFitness >= 200) {
             return curr;
@@ -70,7 +90,7 @@ public class ChessQueue {
             enqueue(genNextBoards(curr)[i]);
         }
         dequeue();
-        return bfs(curr.getNext(), startFitness);
+        return bfsRec(curr.getNext(), startFitness);
     }
 
     /**
