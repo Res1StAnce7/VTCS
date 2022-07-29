@@ -15,7 +15,7 @@ public class ChessQueue {
      */
     public ChessQueue(String startBoard) {
         this.front = new QueueNode(startBoard, ChessFaker.getFitness(startBoard),
-                0, "", new String[1]);
+                0, "", new String[0]);
         this.rear = this.front;
         this.visited = 0;
     }
@@ -64,7 +64,7 @@ public class ChessQueue {
     public QueueNode bfs(QueueNode curr, int startFitness) {
         for (;;) {
             this.visited++;
-            if (ChessFaker.getFitness(curr.getEntry()) - startFitness >= 200) {
+            if (ChessFaker.getFitness(curr.getEntry()) - startFitness >= 250) {
                 return curr;
             }
             for (int i = 0; i < genNextBoards(curr).length; i++) {
@@ -83,7 +83,7 @@ public class ChessQueue {
      */
     public QueueNode bfsRec(QueueNode curr, int startFitness) {
         this.visited++;
-        if (ChessFaker.getFitness(curr.getEntry()) - startFitness >= 200) {
+        if (ChessFaker.getFitness(curr.getEntry()) - startFitness >= 250) {
             return curr;
         }
         for (int i = 0; i < genNextBoards(curr).length; i++) {

@@ -15,7 +15,7 @@ public class ChessTree {
      */
     public ChessTree(String startBoard) {
         this.root = new TreeNode(startBoard, 0, 
-            ChessFaker.getFitness(startBoard), "", new String[1]);
+            ChessFaker.getFitness(startBoard), "", new String[0]);
         this.visited = 0;
     }
 

@@ -15,8 +15,8 @@ public class Chess {
      * @throws Exception The exception.
      */
     public static void main(String[] args) throws Exception {
-        //runTask(1, 5, "ViennaOpen", "VienngOSen");
-        runTask(4, 5, "quickWin", "VienngOSen");
+        runTask(2, 7, "ViannaSpen", "ViennaOpen");
+        //runTask(3, 5, "quickWin", "VienngOSen");
     }
 
     /**
@@ -113,12 +113,17 @@ public class Chess {
         }
         else {
             System.out.print("Moves to target: ");
-            for (int i = 0; i < node.getMoves().length; i++) {
-                if (i != node.getMoves().length - 1) {
-                    System.out.print(node.getMoves()[i] + " + ");
-                }
-                else {
-                    System.out.println(node.getMoves()[i]);
+            if (node.getMoves().length == 0) {
+                System.out.println();
+            }
+            else {
+                for (int i = 0; i < node.getMoves().length; i++) {
+                    if (i != node.getMoves().length - 1) {
+                        System.out.print(node.getMoves()[i] + " + ");
+                    }
+                    else {
+                        System.out.println(node.getMoves()[i]);
+                    }
                 }
             }
             System.out.println("Target fitness: " + ChessFaker.getFitness(target));
