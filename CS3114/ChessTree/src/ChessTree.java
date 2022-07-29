@@ -25,12 +25,11 @@ public class ChessTree {
      * @param curr The current node.
      */
     public void buildTree(int depth, TreeNode curr) {
-        if (curr.getDepth() == depth) {
-            return;
-        }
-        curr.setChildren(genNextBoards(curr));
-        for (int i = 0; i < curr.getNumChildren(); i++) {
-            buildTree(depth, curr.getChild(i));
+        if (curr.getDepth() != depth) {
+            curr.setChildren(genNextBoards(curr));
+            for (int i = 0; i < curr.getNumChildren(); i++) {
+                buildTree(depth, curr.getChild(i));
+            }
         }
     }
 

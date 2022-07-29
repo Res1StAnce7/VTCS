@@ -15,7 +15,7 @@ public class ChessQueue {
      */
     public ChessQueue(String startBoard) {
         this.front = new QueueNode(startBoard, ChessFaker.getFitness(startBoard),
-            0, "", new String[1]);
+                0, "", new String[1]);
         this.rear = this.front;
         this.visited = 0;
     }
@@ -61,18 +61,16 @@ public class ChessQueue {
      * @param start The start board.
      * @return The win board.
      */
-    public QueueNode bfs(QueueNode curr, String start) {
-        if (curr != this.front) {
-            dequeue();
-        }
+    public QueueNode bfs(QueueNode curr, int startFitness) {
         this.visited++;
+        if (ChessFaker.getFitness(curr.getEntry()) - startFitness >= 200) {
+            return curr;
+        }
         for (int i = 0; i < genNextBoards(curr).length; i++) {
             enqueue(genNextBoards(curr)[i]);
         }
-        if (ChessFaker.getFitness(curr.getEntry()) - ChessFaker.getFitness(start) >= 160) {
-            return curr;
-        }
-        return bfs(curr.getNext(), start);
+        dequeue();
+        return bfs(curr.getNext(), startFitness);
     }
 
     /**

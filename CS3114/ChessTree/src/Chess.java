@@ -15,7 +15,8 @@ public class Chess {
      * @throws Exception The exception.
      */
     public static void main(String[] args) throws Exception {
-        runTask(3, 4, "ViennaOpen", "VienngOSen");
+        //runTask(1, 5, "ViennaOpen", "VienngOSen");
+        runTask(3, 5, "quickWin", "VienngOSen");
     }
 
     /**
@@ -85,7 +86,7 @@ public class Chess {
      */
     public void bfs(String start) {
         Long startTime = System.currentTimeMillis();
-        QueueNode node = queue.bfs(queue.getFront(), start);
+        QueueNode node = queue.bfs(queue.getFront(), ChessFaker.getFitness(start));
         Long duration = System.currentTimeMillis() - startTime;
         bfsStats(start, node, duration);
     }
