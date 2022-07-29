@@ -17,7 +17,7 @@ public class ChessQueue {
         this.front = new QueueNode(startBoard, ChessFaker.getFitness(startBoard),
             0, "", new String[1]);
         this.rear = this.front;
-        this.visited = -1;
+        this.visited = 0;
     }
 
     /**
@@ -31,7 +31,15 @@ public class ChessQueue {
     }
 
     /**
-     * Generate next boards.
+     * Remove the starting board from the queue.
+     * @param board
+     */
+    public void dequeue() {
+        this.front = this.front.getNext();
+    }
+
+    /**
+     * Generate the next boards.
      * @param board The current board.
      * @return The next boards.
      */
@@ -54,11 +62,14 @@ public class ChessQueue {
      * @return The win board.
      */
     public QueueNode bfs(QueueNode curr, String start) {
+        if (curr != this.front) {
+            dequeue();
+        }
         this.visited++;
         for (int i = 0; i < genNextBoards(curr).length; i++) {
             enqueue(genNextBoards(curr)[i]);
         }
-        if (ChessFaker.getFitness(curr.getEntry()) - ChessFaker.getFitness(start) >= 130) {
+        if (ChessFaker.getFitness(curr.getEntry()) - ChessFaker.getFitness(start) >= 160) {
             return curr;
         }
         return bfs(curr.getNext(), start);

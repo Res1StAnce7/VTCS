@@ -15,7 +15,7 @@ public class Chess {
      * @throws Exception The exception.
      */
     public static void main(String[] args) throws Exception {
-        runTask(2, 4, "ViennaOpen", "VienngOSen");
+        runTask(3, 4, "ViennaOpen", "VienngOSen");
     }
 
     /**
@@ -80,6 +80,17 @@ public class Chess {
     }
 
     /**
+     * Find a win board in the tree with the breadth first search.
+     * @param start the start board
+     */
+    public void bfs(String start) {
+        Long startTime = System.currentTimeMillis();
+        QueueNode node = queue.bfs(queue.getFront(), start);
+        Long duration = System.currentTimeMillis() - startTime;
+        bfsStats(start, node, duration);
+    }
+
+    /**
      * Print the statistics of the dfs algorithm.
      * @param start the start board
      * @param target the target board 
@@ -106,17 +117,6 @@ public class Chess {
         }
         System.out.println("Nodes visited: " + tree.getVisited());
         System.out.println("Durantion: " + duration);
-    }
-
-    /**
-     * Find a win board in the tree with the breadth first search.
-     * @param start the start board
-     */
-    public void bfs(String start) {
-        Long startTime = System.currentTimeMillis();
-        QueueNode node = queue.bfs(queue.getFront(), start);
-        Long duration = System.currentTimeMillis() - startTime;
-        bfsStats(start, node, duration);
     }
 
     /**
